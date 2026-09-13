@@ -1,0 +1,5 @@
+130aa4e797624647,entity_viper_player
+37b2c74473f119b4,victim_bullet_low_dmg
+57bdf9c414a581f9,entity_viper_npc
+5e2e63568e4c1166,entity_viper_victim
+74d8cb2698f76308,victim_bullet_high_dmg

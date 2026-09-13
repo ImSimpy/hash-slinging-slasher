@@ -1,0 +1,12 @@
+80dd353cf51c3f3,gamedata/ddl/generated/dlog_event_loot_use.ddl
+cf6c9e115e8981a,gamedata/ddl/generated/dlog_event_lobby_session_end.ddl
+13e5f5b4e00fd971,gamedata/ddl/common/profile_hardware.ddl
+1c51f9bddad99b97,gamedata/ddl/generated/dlog_event_use_loot_sticker.ddl
+24f702681f26b16e,gamedata/ddl/generated/wz_match_record.ddl
+27aa897d208b133f,gamedata/ddl/generated/profile_hardware.ddl
+4945cd60bcbf0c60,gamedata/ddl/generated/dlog_event_exchange_success.ddl
+4db59bc94ebca093,gamedata/ddl/generated/dlog_event_blackmarket_entry.ddl
+51350f198dbe7dd3,gamedata/ddl/generated/dlog_event_lobby_match_record.ddl
+66b3d282b6e8b8bb,gamedata/ddl/generated/dlog_event_lobby_match_end.ddl
+73cecaa08d2c69cc,gamedata/ddl/generated/dlog_event_pmem_size.ddl
+79b5c6b0655f3e0a,gamedata/ddl/generated/dlog_event_lobby_match_start.ddl

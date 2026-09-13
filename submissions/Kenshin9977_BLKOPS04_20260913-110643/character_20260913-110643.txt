@@ -1,0 +1,5 @@
+1548b0053c612dc1,c_t8_zmb_dlc1_zombie_1stclass_female1_nohat
+296a2437d42f6a54,c_t8_zmb_dlc0_zombie_male2_igc
+3d29553685c4aca7,c_t8_zmb_crew4_igc
+7887f7fa61198709,c_t8_zmb_3rdclass_female2_nohat
+7befa3e8cd85887a,c_t8_zmb_3rdclass_female3_nohat

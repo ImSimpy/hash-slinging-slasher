@@ -1,0 +1,9 @@
+e663f55d81be91c,mp_mannequin.ai_bt
+1995371b708e76a7,wz_brutus.ai_bt
+3f0595b19b3d0eca,zm_zombie_wz.ai_bt
+41614bbf0a9e7756,mp_dog.ai_bt
+54585773a8ebf0e2,zm_zombie_mp.ai_bt
+59a40f30e23d37bb,zm_wolf_ally.ai_bt
+5aa334bfc65375f3,ct_blight_father.ai_bt
+641bd78a8e20a8a0,swat_soldier.ai_bt
+6f32ff86833f07c5,wz_avogadro.ai_bt

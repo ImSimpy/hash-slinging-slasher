@@ -1,0 +1,11 @@
+3570efdbf28094e,zm_scepter_lvl2
+3570ffdbf280b01,zm_scepter_lvl3
+a428fb43dcc4a94,zm_hammer_lvl2
+a4290b43dcc4c47,zm_hammer_lvl3
+2f80168c0a4d7ef1,zm_minigun_lvl2
+45f04c261fa08104,zm_viper_lvl2
+45f04d261fa082b7,zm_viper_lvl3
+4641ac89a55b4144,zm_katana_lvl2
+4641ad89a55b42f7,zm_katana_lvl3
+751472233d1dcf50,zm_gravityspikes_lvl3
+751473233d1dd103,zm_gravityspikes_lvl2

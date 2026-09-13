@@ -1,0 +1,2 @@
+3a2f1b5b8600a505,surface_explosion_artillery
+5e713c3075ce6eed,surface_explosion_grenade_mini
