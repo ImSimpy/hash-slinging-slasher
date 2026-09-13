@@ -1,0 +1,13 @@
+e705855d824681c,mp_mannequin.ai_am
+198b3e1b70862e07,wz_brutus.ai_am
+23e997345b2495f5,zm_catalyst_water.ai_am
+269b106288719564,zm_mannequin.ai_am
+26f702461b3521ef,zm_werewolf.ai_am
+3f027eb19b3ab1de,zm_zombie_wz.ai_am
+415d64bf0a9ab8fa,mp_dog.ai_am
+4d83a28fe5d09852,zm_catalyst_plasma.ai_am
+54555073a8e9af26,zm_zombie_mp.ai_am
+5a994bbfc64b4883,ct_blight_father.ai_am
+6425d08a8e28f140,swat_soldier.ai_am
+694341b93236ca2e,zm_dog_electric.ai_am
+6f36f6868342e151,wz_avogadro.ai_am

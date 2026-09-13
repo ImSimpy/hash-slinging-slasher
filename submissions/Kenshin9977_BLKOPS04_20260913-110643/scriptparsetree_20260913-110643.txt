@@ -1,0 +1,3 @@
+112484f657ccd8b7,scripts/zm_common/trials/zm_trial_regen_during_movement.gsc
+45657e86e8f90414,scripts/zm_common/trials/zm_trial_attack_during_movement.csc
+6951ea86fdae9ae0,scripts/zm_common/trials/zm_trial_attack_during_movement.gsc

@@ -1,0 +1,7 @@
+10eb98c5aecfec2,loot_emote_seraph_cowboy
+d72edb1ebe00eef,loot_emote_ruin_dance
+3c1aeb02f664c10c,loot_emote_firebreak_campfire
+54c382e94429a878,loot_emote_firebreak_dance
+5c3d713a817f0690,loot_emote_recon_dance
+78720cce5e4563e7,loot_emote_battery_tnt
+7d8f1b96e9c6157c,loot_emote_ghost_dance
