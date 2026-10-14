@@ -6412,3 +6412,58 @@ question. This result does not establish that every useful method needs an endin
 
 Generator: the plan is three lines and is regenerated per game by the same driver that carried the
 sound half; `contrib/` is staging, so the run folders and their fingerprints are the record.
+
+## Language substitution: token scan does not establish a dead end -- 2026-10-13
+
+The original measurement split modern `fnv1a_xsounds_v2` display names on `.`, `/`
+and `_`, then searched for short language-like tokens. That counted `ar` in weapon
+directories such as `iw9/wpn/ar_ralpha` as Arabic. `pl` and `jp` inside directory
+or stem tokens likewise do not identify a sound's locale. Those counts cannot prove
+that modern sounds lack a language field, or that language substitution is spent.
+
+Read original spellings through `snapshot.verified_database_row` before measuring
+conventions: an exported display path can use different directory separators.
+The modern sound tail is `<format>.<quality>.<rate>.<language>`, with the locale in
+the final field. On the 2026-10-14 public table revision
+`3d42c005d5405af8b225958bef09a041e9ada0be`, the source-hash-verified names have:
+
+| final field (not always a locale) | verified names |
+|---|---:|
+| `all` | 285,872 |
+| `english` | 229,066 |
+| `russian_full` | 2,902 |
+| `russian_partial` | 2,626 |
+| `wav` | 130 |
+| `defaultsndasset` | 1 |
+| `48000_katana` | 1 |
+
+`wav`, `defaultsndasset` and `48000_katana` are non-locale final fields on names
+that do not follow the standard tail grammar.
+
+Total source-hash-verified rows: 520,598. `all` is the non-localized tail;
+`english`, `russian_full` and `russian_partial` are present. This table alone does not establish
+which other locales a particular game build holds. Test a bounded, seeded transfer
+against the target game's exact sound-asset pool, with known-name controls and
+exclusion against existing names, before claiming either yield or exhaustion.
+
+## Duplication rate is a targeting instrument, and it is free -- 2026-10-13
+
+`submit` prints the drop as one number, but it is per game, and read across a night it says where to
+point the machine. Measured on this machine's own batches, same method, same hour, same exclusion
+rules:
+
+| game | locally new | dropped as already claimed | survived |
+|---|---|---|---|
+| YAMYAMOK | 16,360 | 16,200 | **160** (1.0%) |
+| BLACKOP7 | 14,854 | 14,802 | 52 (0.35%) |
+| BLACKOP6 | 9,661 | 9,615 | 46 (0.48%) |
+| MODWAR7 | 874 | 244 | 630 (72%) |
+
+Four games, one derivation round, and the survival rate spans over two orders of magnitude. MWIII, BO7
+and BO6 are being swept by other contributors faster than a re-derivation can outrun them; MW7 is
+not. A useful additional figure is **what fraction of what this machine
+just found somebody else already had**, and `logs/submit*.log` already holds it.
+
+This is the negative space §7 asks for, measured off one's own submission log rather than a ranking,
+and it describes competition in that measured round. Re-measure on fresh inputs; these
+rates are not permanent per-game rankings and do not imply a fixed rotation.
