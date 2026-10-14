@@ -6382,3 +6382,27 @@ new confirmations keep arriving -- the general half of the same method went 228,
 in one afternoon on 272 fresh names, and the modern titles paid 38/66/76/96/17 from that alone while
 Black Ops 4 and Cold War paid 0, which is the usual decay of a corpus that is nearly named. Regenerate
 before running; the list is the perishable half.
+
+## Beginning x bare core: negative result on three tested corpora -- 2026-10-12
+
+The one column the all-boundary sweeps had never worn: `begin:` from the game's own measured
+list (699 entries in `data/modern/<game>/prefixes.txt`) over `stem: ` the confirmed-only
+all-boundary cores (229,546), no ending column and `bare: no` -- so every candidate is a real
+beginning joined to a real body and nothing else. 160,452,654 candidates a game, against 464,578
+unnamed MWII ids, 455,685 MWIII and 675,925 BO6: **0 new, three games, three times.** Black Ops 7
+and MW7 never ran, because the futility guard refused after the third empty -- 160M is well above
+`NOT_A_LOSS`, so that is the guard behaving rather than the artifact it used to be.
+
+The positive control is the part worth reading, because three clean zeros are exactly the shape of
+a sweep that never built a valid candidate: **234 of the 338,914 image names MWII holds are *exactly*
+one of those beginnings plus one of those cores.** This is a positive control for candidate construction on the measured MWII image corpus;
+the run report records correct-game hashing and zero new results. The 0.07% figure is the
+observed coverage of that known image corpus, not a ceiling on unknown assets or other games.
+
+The tested beginning/core lists produced 0 new names in 481 million candidates across MWII,
+MWIII and BO6. Keep this exact space closed at those input versions. BO7 and MW7 were not
+tested, and a targeted beginning relation or genuinely new seed vocabulary is a separate
+question. This result does not establish that every useful method needs an ending column.
+
+Generator: the plan is three lines and is regenerated per game by the same driver that carried the
+sound half; `contrib/` is staging, so the run folders and their fingerprints are the record.
