@@ -5044,6 +5044,9 @@ b7a3a0e6bdf07ad,iw9/exp/frag/iw9/iw9_frag_expl_trans_03.vnn.75.48000.all
 2413ea56ba8d4a9a,iw9/exp/frag/iw9/iw9_frag_expl_veryfar_dist_08.vnn.75.48000.all
 492f8d5d7eb4edbf,iw9/exp/frag/iw9/iw9_frag_expl_veryfar_dist_09.vnn.75.48000.all
 67995b5bd15c2f35,iw9/exp/frag/iw9/iw9_frag_expl_veryfar_dist_10.vnn.75.48000.all
+746ec9c6c7c228b8,iw9/exp/frag/iw9_frag_expl_atmo_underwater_01.lnn.75.48000.all
+1f4f1f27df647d87,iw9/exp/frag/iw9_frag_expl_atmo_underwater_02.lnn.75.48000.all
+1d8b1f13ead30e72,iw9/exp/frag/iw9_frag_expl_atmo_underwater_03.lnn.75.48000.all
 17cec702adecf32e,iw9/exp/glass/dst_glass_break_01.vnn.75.48000.all
 6bb9a4106a987b91,iw9/exp/glass/dst_glass_break_02.vnn.75.48000.all
 623cd89e18bebae4,iw9/exp/glass/dst_glass_break_03.vnn.75.48000.all
@@ -5715,6 +5718,7 @@ a583ca5b8fe89e4,iw9/op/zimo/dx_op_zimo_bttl_zimo_qp06_suchauselessguy_opg3.snn.7
 e8ac4c38a33b32d,iw9/op/zimo/dx_op_zimo_bttl_zimo_qp14_surpriseyouredead_opg3.snn.75.48000.english
 dc7c94ca99d9332,iw9/op/zimo/dx_op_zimo_bttl_zimo_revd_ancestorswatchoverme_opg3.snn.75.48000.english
 4905cba568a6e00b,iw9/sp/backstabbed/dx_sp_back_iigc_alej_spa-weaponshotcowboy.snn.75.48000.english
+653ce26e0ba6a759,iw9/sp/intercept/dx_sp_inte_ligh_gazz_deathfromabove.snn.75.48000.english
 3a28dc940806bde,iw9/sp/tkdn/vm_sp_takedown_enemy_gurgle_01.pnn.20.48000.all
 936f9527e752289,iw9/sp/tkdn/vm_sp_takedown_enemy_gurgle_02.pnn.20.48000.all
 2936a4b94bff1088,iw9/sp/tkdn/vm_sp_takedown_enemy_gurgle_03.pnn.20.48000.all
@@ -12176,6 +12180,8 @@ dc545e1909b683f,jup/wpn/sniper/svictor/reloads/wfoly_plr_sn_svictor_reload_shoul
 1ac20ddd0d34e72a,mp/br/br_plunder_broken_atm_cash.lnn.75.48000.all
 3b9139ca6b534c7,mp/br/br_plunder_extract_cash.lnn.75.48000.all
 7de9d57a47b12164,mp/br/br_plunder_extract_cloth.lnn.75.48000.all
+25347c53ad045ba1,mp/br/br_supply_station2_close.lnn.85.48000.all
+230cae205e94f60b,mp/br/br_supply_station2_open.lnn.85.48000.all
 6c155b6d81546231,mp/br/br_supply_station_open.lnn.85.48000.all
 7119aef0c3eed51c,mp/br/br_vehicle_enter_jeep_fs_01.lnn.85.48000.all
 7a5c190fb663333b,mp/br/br_vehicle_enter_jeep_fs_02.lnn.85.48000.all
@@ -14921,6 +14927,9 @@ f7b7795e4d8a04a,t10/exp/frag/frag_expl_swt_06.vnn.75.48000.all
 27445444833b6869,t10/exp/frag/iw9/iw9_frag_expl_env_ext_08.vnn.75.48000.all
 7a73b0b97f2ef05c,t10/exp/frag/iw9/iw9_frag_expl_env_ext_09.vnn.75.48000.all
 77db83e2d883304e,t10/exp/frag/iw9/iw9_frag_expl_env_ext_10.vnn.75.48000.all
+2ac2817697a2932a,t10/exp/frag/iw9_frag_expl_atmo_underwater_01.lnn.75.48000.all
+1bbe60d77c1a001d,t10/exp/frag/iw9_frag_expl_atmo_underwater_02.lnn.75.48000.all
+62d7fec79b4678f0,t10/exp/frag/iw9_frag_expl_atmo_underwater_03.lnn.75.48000.all
 28ea6503cd13e9d2,t10/exp/helicopter/chopper_support_explo_close_01.lnn.75.48000.all
 2a4a2f75299e79c5,t10/exp/helicopter/chopper_support_explo_close_02.lnn.75.48000.all
 466dddbb5b76c098,t10/exp/helicopter/chopper_support_explo_close_03.lnn.75.48000.all

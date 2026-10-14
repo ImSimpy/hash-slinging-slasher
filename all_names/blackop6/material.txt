@@ -6,6 +6,7 @@ cc700cc85e9c6f2,#tm/ee_foliage_grass_wild_long_wnd_sbx
 292bac3fe177686f,#tm/foliage_alder_bush_large_01_shadowcaster_flag_02
 371b537f7206de01,#tm/foliage_grass_long_01_burnt_wnd_vt
 6bf9654d98a1bd7c,#tm/foliage_tree_syria_olive_leaves_dry_flag
+5a42b097ccd95032,#tm/li_ee_foliage_grass_tall_02_green_proxy
 2e6d65b2f23b4f1f,#tm/li_foliage_bush_salsola_01_dry_periph_proxy
 497764d8163f9d59,#tm/me_foliage_bush_sandbarwillow_dry_flag
 2d07bb04775f8a9d,#tm/me_rock_small_01_sbx
@@ -68,6 +69,7 @@ be571070b2cfc1d,#tm7/foliage_tree_vista_card_palm_01_light
 4c30e1a487f1900c,#tm7/jup_ground_geo_tree_stump_01_snow
 3170c36eed780923,#tm7/jup_ground_geo_tree_stump_02_snow
 99a9c27ae3ebdd4,#tm7/jup_rock_reef_01
+4dd54d088e30bdab,#tm7/li_ee_foliage_grass_tall_02_green_proxy
 4f80ca3698baaab5,#tm7/li_un_foliage_bush_caramina_flowers_large_01_proxy
 657302b5268f2c8f,#tm7/li_un_foliage_bush_caramina_flowers_large_01_reactive_proxy
 511d4e1048ea5e73,#tm7/li_un_foliage_bush_caramina_flowers_medium_01_proxy
@@ -3682,6 +3684,7 @@ ea7d55dcaec9060,m/c_t10_gear_nic_pl_smuggler_armband
 646981656722373c,m/c_t10_gear_nvg_01_upper
 3667ec33d8505c90,m/c_t10_gear_pda_02
 4afac7faa68386eb,m/c_t10_gear_pistol_magazine_02
+535ef001edd5ad1,m/c_t10_gear_pistol_rus_makarov1
 32ebcb95d9ef27f3,m/c_t10_gear_pistol_semiauto
 26111be69458b925,m/c_t10_gear_pistol_semiauto_portal_rvl
 49bf78eb70fded77,m/c_t10_gear_plastic_buckle_01
@@ -10913,7 +10916,9 @@ deb8b0754613ea4,m/t10_zm_vsd_container_screen_03
 4e8550d4fddc0d7d,m/uk_appliance_microwave_02_wood
 198904dfb9b4bc71,m/uk_clothing_sporting_goods_hat_01_logo_lions
 7b2c269ce60a9cb2,m/uk_clothing_workout_clothes_01_black_graphics
+56a21f9ae407f299,m/uk_clothing_workout_clothes_01_black_graphics1
 1cb920129d02762e,m/uk_clothing_workout_clothes_01_graphics
+51079ea0cb2eb6ad,m/uk_clothing_workout_clothes_01_graphics1
 50a63c6a92f696cc,m/uk_clothing_workout_clothes_01_grey_graphics
 281316bec69b5705,m/uk_clothing_workout_clothes_01_navy_graphics
 2d4c50f81e11ab38,m/uk_debris_peeling_paint_01_chips
@@ -11846,6 +11851,7 @@ dc63c9495b75d7d,mh/t10_tableware_glass_set_01_wine
 6c1708143f734374,mh/t10_tableware_glass_set_01_wine_champagne
 2ee4bcd78c8cbde0,mh/t10_tableware_glass_set_01_wine_champagne_top
 1cf12f5bd3b2f3a1,mh/t10_tableware_glass_set_01_wine_red_top
+60c73c08b9143459,mh/t10_tableware_glass_set_01_wine_red_topb
 7df64cb3b2a79eae,mh/t10_vent_valve_blast_01_dark
 69b92618da0e0274,mh/veh9_civ_lnd_suv_1996_decals
 2d9d16dd6fcf1346,mh/veh9_civ_lnd_suv_1996_glass
@@ -14009,6 +14015,7 @@ b95e426c8494a79,mo/t10_redacted_door_elevator_hub_01_lights_blinking_green_vfx
 71bbaaec421b32e1,mo/t10_redacted_platform_elevator_floor
 1540c662d6faa591,mo/t10_redacted_platform_elevator_floor_opaque
 354465f90f087e6c,mo/t10_sabotage_accessory_keeneye_documents_01
+7d5841c96d43b7c6,mo/t10_sabotage_construction_door_pushbar_damaged
 249de27e930a017,mo/t10_sabotage_door_industrial_metal_set_01
 7f128b26aef12784,mo/t10_sabotage_door_industrial_metal_set_01_dark
 520d1656bb326392,mo/t10_sabotage_machinery_heater_01_decal
@@ -23903,6 +23910,7 @@ ee39c303d9b2c68,tml/t10_archway_classical_entrance_01_top
 64aebcf2af2a91ba,tml/t10_ava_hst_trim_sheet_gold_01
 9c562a93e4a71e2,tml/t10_ava_hst_trim_sheet_limestone_01
 355c419ef5e5d51e,tml/t10_ava_pillar_exterior_wall_paint
+d89c8918d159f7c,tml/t10_ava_stone_wall_trim
 78ead8e18580e58a,tml/t10_brick_wall_01
 7240b7a00891359a,tml/t10_concrete_cracks_01_rvl
 64d59cb3e04db630,tml/t10_decor_rug_area_01_red
@@ -24027,6 +24035,7 @@ a022b3218e58cbd,tmo/c_t10_f_mannequin_arm_1
 a69b47fbcc30880,tmo/c_t10_gear_harness_hooks_02_tape
 395441539e70a39b,tmo/c_t10_gear_headphones_01_orange
 529fa373ca7f8b43,tmo/c_t10_gear_necklace_compass_01_glass
+43a1205481d5b3d8,tmo/c_t10_gear_pistol_rus_makarov1
 2e695003d640ac91,tmo/c_t10_gear_small_cleaver_01
 56251716ffa0e646,tmo/c_t10_gear_sunglasses_03_glass
 7738146799473994,tmo/c_t10_gear_tinted_flip_up_goggle_01_glass
@@ -24516,6 +24525,7 @@ b7d88f3aa9f14f3,tmo/mtl_veh_t10_civ_us_sedan_90s_under_blue
 17c4e723964dc4df,tmo/mtl_veh_t10_civ_vintage_engine
 596b6ea310fbb15d,tmo/mtl_veh_t10_convoy_cars_fuel_tanker_dst_oil
 1d0517b0a72e53ff,tmo/mtl_veh_t10_convoy_cars_truck_large_dst
+7dfb0e2c13b86557,tmo/mtl_veh_t10_convoy_cars_truck_large_dst2
 b301bea77f84c1a,tmo/mtl_veh_t10_convoy_cars_truck_tech_dst_01
 32141b17965aeb95,tmo/mtl_veh_t10_convoy_cars_truck_tech_dst_01_oil
 b301aea77f84a67,tmo/mtl_veh_t10_convoy_cars_truck_tech_dst_02
@@ -29082,6 +29092,7 @@ a8f3a8b9eeaf98c,tw/metal_wall_tiles_exterior_02_red
 567fe9173d548e68,tw/mp_flooded_plywood_01_light_blue
 6c48603a2239d641,tw/mtl_eqp_t10_ammo_box_net
 6a20aa3a2befc439,tw/mtl_offhand_t10_electronics_printer_screen_static
+3db9a98e7fa3b855,tw/mtl_t10_sb_foliage_vista_01
 5a6016bfc283db9,tw/mud_rough_a_tnd
 7fdab8b79e74ecbc,tw/mx_periph_city_road_02
 595dc8030b30032c,tw/mx_periph_city_traffic_vista_yellow_fast_01
@@ -29423,6 +29434,7 @@ be29bbca25b51e2,tw/stone_wall_trims_02_tan_02
 42c21177fca2fa77,tw/t10_ava_hst_trim_sheet_limestone_01_bright
 7cbe907c228d53b3,tw/t10_ava_hst_trim_sheet_marble_01
 1dc23a04898feafd,tw/t10_ava_hst_trim_sheet_plaster_01
+47a3841e2e2e3988,tw/t10_ava_stone_wall_trim
 60b60465e4e25e0e,tw/t10_brick_castle_wall_04_a
 1012a8cc10e02f00,tw/t10_brick_castle_wall_06
 6c164ee021f778a5,tw/t10_brick_clay_01
@@ -34646,6 +34658,7 @@ fd9adc096b857b9,twc/*1261n_1273n
 529a935db421d185,twc/*1261n_586n
 7ced13ee381073eb,twc/*1261n_586n_1273n
 4cab6ae813a1161a,twc/*1261n_586n_266n
+2d543138bc244378,twc/*1262n_1263n_1264n_1265n
 15331098881c93b6,twc/*1262n_2900n
 12eee5bc01a03ce3,twc/*1262n_2900n_2929n
 25944498911ec4c5,twc/*1262n_2929n
@@ -36574,6 +36587,7 @@ c3e390ece77f190,twc/*1369n_1370n_334n_1391n
 2db08acc0cd31e27,twc/*1369n_4703n
 a965c84ecfa4505,twc/*1369n_4979n_2725n
 312b20cdd3b34af6,twc/*1369n_4979n_2725n_262n
+2f4cb9eecc70aca8,twc/*1369n_5088n_2725n_262n
 3523a6932f0f4eb2,twc/*1369n_589n_2725n
 fa417eabed2ac0f,twc/*1369n_589n_2725n_262n
 34da345e99629e10,twc/*1369n_892n
@@ -38824,6 +38838,7 @@ f460832904e0430,twc/*1528n_493n_128n
 4f8f3112dd577ea8,twc/*1528n_79n_784n
 64694f73fda1e93b,twc/*1528n_931n_348n
 48d578acefc085c2,twc/*1529dn_2669n
+72ccd9022bf21442,twc/*1529dn_2669n_66n_48n
 8be2d73fa220091,twc/*1529dn_48n
 79705ec29b5c0dd9,twc/*1529dn_48n_48n_66n
 1159ca21f93f55d8,twc/*1529dn_48n_66n
@@ -55504,6 +55519,7 @@ f961c4fa8ac8f4d,twc/*467n_468n_102n
 7c4c17114c157d2,twc/*469n_119n_812n_289n
 7b8e9997ae4bd70d,twc/*469n_453n_450n
 489d863728d0c765,twc/*469n_453n_450n_470n
+6ae80686fd672eb7,twc/*469n_465n_484n_485
 4fd14a488981a2e0,twc/*469n_474_474
 4fd14b488981a493,twc/*469n_474_475
 494954f172e9dd0,twc/*469n_500n_412n
@@ -57318,6 +57334,7 @@ debc4136c2b03a,twc/*5355n_439n
 3f67ecf618c61f3d,twc/*5359n_5361n_878n
 503db0f539002d33,twc/*5359n_878n
 2e88acfdfaef785b,twc/*5359n_935n
+2519203c3fdd3dcc,twc/*535_535_535_535
 148a3de2d3c8c2b9,twc/*535n_188n_446n
 3f87e151a1d93753,twc/*535n_196n_195n
 2d470de427ba871e,twc/*535n_535n_535n
@@ -66445,6 +66462,7 @@ bbf50515759ae8c,twcj/*4549n_4554dn
 67caed979e9b4b25,twcj/*4594dn_2639n_46n
 5ebee497995f90d5,twcj/*4594dn_2639n_51n
 34a0c426561d3082,twcj/*4594dn_2639n_51n_46n
+5dc990af9b9b8e6b,twcj/*4594dn_2639n_51n_4902n
 9fac2abea143850,twcj/*4594dn_51n
 1067aac2152aa18b,twcj/*4594dn_51n_46n
 461285680293b26f,twcj/*459n_1202dn
@@ -68407,6 +68425,7 @@ ff8b00e4ec7f0e7,~tm/cp_disco_chainlink_fence_01_large_rust
 1452a429a58ed830,~tm/decor_rope_thick_pile_01_transp_gold_burned
 ca3688ad163708d,~tm/decor_tombstone
 70866a029656c581,~tm/decor_trim_concrete_01_light
+10ecd5b65a715f5c,~tm/door_glass_metal_mp_set_grey
 22f2335c9a0d3151,~tm/door_industrial_metal_set_01
 11e4d0d5eeb4469f,~tm/door_metal_office_single_01_brown
 430b94bae1ad6e2e,~tm/door_wooden_panel_03_bare_varnished_02_brown
@@ -68577,6 +68596,7 @@ cec1a8e5ccd3ae0,~tm/mtl_s4_afr_ruin_stone_wall_128_light_lod
 7d9428d9d717bab2,~tm/mtl_s4_afr_trenches_walls_01
 636bae593f47eeb4,~tm/mtl_s4_afr_trenches_walls_03_sbx
 7d9424d9d717b3e6,~tm/mtl_s4_afr_trenches_walls_05
+1b62c912bc0ab497,~tm/mtl_s4_fence_wood_rustic_01_light
 63d96f0150f62843,~tm/mtl_s4_fra_wood_framing_set_01
 3997c4645a38f61d,~tm/mtl_s4_jpn_volcanic_cliff_08_jungle_moss
 6f54948b8786b041,~tm/mtl_s4_plaster_edge_spline_03
@@ -68586,6 +68606,7 @@ cec1a8e5ccd3ae0,~tm/mtl_s4_afr_ruin_stone_wall_128_light_lod
 50f2e889aaed3c06,~tm/mtl_t10_plaster_wall_chunk_05_sbx
 a970c2693e48ec5,~tm/mtl_t10_plaster_wall_chunk_trim_sbx
 4441b8b1e2507c4a,~tm/mtl_t10_railing_classical_01
+730e199b149df475,~tm/mtl_t10_sandbag_set_01
 67ad574a33c81c61,~tm/mtl_t10_sbx_rocks_cliffs_04_vista
 7d91753c7e446b6,~tm/mtl_t10_sbx_rocks_cliffs_04_vt
 dfb469cc7f81cbd,~tm/mtl_t10_sbx_rocks_ruins_arch_01
@@ -68934,11 +68955,22 @@ b1b96b9018ac11e,~tm/t10_railing_topaz_interior_balcony_01_rail
 ed6beecb7ab52db,~tmo/metal_painted_heavy_interior_tan_01
 658c3f53a36b5f89,~tmo/mtl_t10_plaster_wall_chunk_05_sbx
 129b8abe106d9fce,~tmo/mtl_t10_plaster_wall_chunk_trim_sbx
+4e467d68b0e67697,~tmo/mtl_t10_railing_classical_01
+e687447cce57a4c,~tmo/mtl_t10_sbx_rocks_cliffs_01_noshadows
+59e0c2abe1d2225e,~tmo/mtl_t10_sbx_rocks_cliffs_01_vista_noshadows
+195e53cb8bc6c830,~tmo/mtl_t10_sbx_rocks_cliffs_04
+2e4077f00f87b64a,~tmo/mtl_t10_sbx_rocks_cliffs_04_vista
+209d662631afefdf,~tmo/mtl_t10_sbx_rocks_cliffs_04_vt
+5d877e4c8e6a131a,~tmo/mtl_t10_sbx_rocks_ruins_arch_01
+59aee4df17355a60,~tmo/mtl_t10_sbx_rocks_ruins_arch_01_vista
+334bb1650b72791e,~tmo/mtl_t10_window_classical_wood_ornament_01
 350c471204dcbae3,~tmo/plastic_acrylic_01_tan
+66ab3e1f6e2396df,~tmo/railing_metal_art_deco
 44e19715577a1c97,~tmo/t10_archway_classical_interior_03
 76433aa8966cb7e4,~tmo/t10_archway_classical_interior_03_glass
 22f209d50f3229c3,~tmo/t10_archway_classical_interior_03_glass_02
 1e8a1384851cd4df,~tmo/t10_archway_classical_interior_03_glass_02_opaque
+46c315fe3ff5a98c,~tmo/t10_ava_hst_ceiling_ornate_corner_02
 7486ae47c35ba4dd,~tmo/t10_ava_hst_railing_baluster_marble_01b
 6bc45cf7c7e763f1,~tmo/t10_ava_hst_railing_ornate_metal_gold_01
 3e92249ef4886412,~tmo/t10_ava_hst_railing_ornate_metal_gold_01_alpha
@@ -68981,7 +69013,10 @@ b984a144120ce52,~tmo/t10_furniture_barnwood_table_01_worn
 353f5c86d2f408e3,~tmo/t10_hst_door_surround_kit_part_02b_gold
 1179fda24605a723,~tmo/t10_machinery_railroad_track_set_01_skirt
 49db6f630cae7237,~tmo/t10_metal_brass_02
+5f6d0e04d748b1d1,~tmo/t10_metal_brass_02_welds
 c5eb4b826e91f2,~tmo/t10_per_vent_radar_facility_building
+7453665e095ceda0,~tmo/t10_platform_stage_set_01
+18fba1a8b0676e23,~tmo/t10_platform_stage_set_01_hole
 d95a163047b6462,~tmo/t10_plumbing_mout_pipe_metal
 c89205b5a718344,~tmo/t10_plumbing_pipes_set_01
 579b541492272e20,~tmo/t10_plumbing_pipes_set_01_copper
@@ -69024,6 +69059,7 @@ c101bd98d1fdcc5,~tmo/t10_roof_vent_rectangular_set_01
 4a1bd1e834e1718f,~tmo/t10_trim_wall_worn_01
 79fda5bc2be06656,~tmo/t10_truss_cloth_straight_104x64_large
 5bdfcbf3fd62471b,~tmo/t10_truss_metal_support_beam_set
+6adef19c2496ffd2,~tmo/t10_vent_interior_01_set
 7e4541c001e69d6d,~tmo/t10_wall_brick_01
 5d7019bc4ab23451,~tmo/t10_wall_classical_entablature_01b
 7e35a27a40e84270,~tmo/t10_wall_classical_entablature_02
