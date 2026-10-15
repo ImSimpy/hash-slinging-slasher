@@ -52,6 +52,13 @@ class GeneratorInputsTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 inputs.sound_lists('MODWAR7')
 
+    def test_general_generators_keep_legacy_and_configured_findings_seeds(self):
+        with tempfile.TemporaryDirectory() as folder:
+            (Path(folder) / 'fnv1a_xmodels.csv').write_text('')
+            with patch.object(snapshot.settings, 'tables_csv', return_value=folder), patch.object(snapshot, 'table_names', return_value=['legacy_t9_model']) as reader, patch.object(snapshot, 'confirmed_names', return_value=['local_new_name']):
+                self.assertEqual(inputs.all_known_names(), ['legacy_t9_model', 'local_new_name'])
+                reader.assert_called_once_with('fnv1a_xmodels')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -67,7 +67,10 @@ def modern_names(kind):
 
 
 def all_known_names():
-    return sorted(set().union(*(seeds(kind) for kind in TABLES)))
+    # These generators previously consumed every_game_transfer output, including
+    # legacy names. Keep that reach while using source-verified CSV spellings.
+    tables = sorted(path.stem for path in Path(snapshot.settings.tables_csv()).glob("fnv1a_*.csv"))
+    return sorted(set(snapshot.table_names(*tables)) | set(snapshot.confirmed_names()))
 
 
 def sound_lists(game):
