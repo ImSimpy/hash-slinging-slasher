@@ -1,0 +1,4 @@
+c0cf6e8edb23161,mp/equip/iw8_mp_adrenaline_remove_stim_sfx.lnn.75.48000.all
+4887117a518fcd1c,iw9/sp/tkdn/vm_sp_takedown_pistol_right_01_bodyfall.lnn.85.48000.all
+799f0fa845ed17b2,iw9/sp/tkdn/vm_sp_takedown_pistol_back_02_bodyfall.lnn.85.48000.all
+7a80c11ef70be434,iw9/sp/tkdn/vm_sp_takedown_pistol_left_02_bodyfall.lnn.85.48000.all
