@@ -29,12 +29,18 @@ MIN_FIELD = 20
 
 
 def main():
+    if len(sys.argv) != 2 or sys.argv[1].upper() not in {"MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"}:
+        raise SystemExit("Supply one supported modern game")
     game = sys.argv[1].upper()
     an = ROOT / "state" / "an"
     out = ROOT / "contrib" / "out"
+    out.mkdir(parents=True, exist_ok=True)
+    (ROOT / "plans").mkdir(parents=True, exist_ok=True)
     heads = set()
     fields = [Counter(), Counter(), Counter(), Counter()]
-    sources = [an / f"{g}_sound_asset.named" for g in MODERN] + [out / "every_name.txt"]
+    sources = [an / f"{g}_sound_asset.named" for g in MODERN]
+    if (out / "every_name.txt").is_file():
+        sources.append(out / "every_name.txt")
     for path in sources:
         for line in path.open(encoding="utf-8", errors="replace"):
             name = line.strip().lower()
