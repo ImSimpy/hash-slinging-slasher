@@ -1,0 +1,13 @@
+b8a88958e0aa111,jup/fly/executions/doublebarrel/jup_exec_doublebarrel_stand_victim_foley_01.pnn.85.48000.all
+d43c5dcbf046c92,jup/fly/executions/doublebarrel/jup_exec_doublebarrel_stand_attacker_foley_01.pnn.85.48000.all
+1542f0f85dcdcaa4,t10/wpn/sl/napa/plr/fcg/wpn_sl_napa_fcg_disconnector_plr_02.tnn.85.48000.all
+25166071583f56e9,jup/fly/executions/smg/jup_exec_smg_stand_body_01.pnn.85.48000.all
+2ffc1838c71924b2,t10/wpn/sl/napa/plr/fcg/wpn_sl_napa_fcg_disconnector_plr_04.tnn.85.48000.all
+3ceeb5f1287abc63,t10/wpn/sl/napa/plr/fcg/wpn_sl_napa_fcg_disconnector_plr_01.tnn.85.48000.all
+3e6480b506e057b1,jup/fly/executions/brownie/jup_exec_brownie_prone_victim_foley_01.pnn.85.48000.all
+406473f403355f0f,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_06.tnn.85.48000.all
+506bb6d0f1b4ddb7,t10/wpn/sl/napa/plr/fcg/wpn_sl_napa_fcg_disconnector_plr_05.tnn.85.48000.all
+55ff361acbac5303,jup/fly/executions/smg/jup_exec_smg_last_kick_01.pnn.85.48000.all
+60291fe95bee7110,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_05.tnn.85.48000.all
+73eed9c1016a9c31,t10/wpn/sl/napa/plr/fcg/wpn_sl_napa_fcg_disconnector_plr_03.tnn.85.48000.all
+7a115077b369a6ab,jup/fly/executions/doublebarrel/jup_exec_doublebarrel_prone_victim_foley_01.pnn.85.48000.all
