@@ -278,6 +278,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | zombies chaos-story player vo grid: vox <map> plr <n> <event> <v> for zod/red/tow, events from mitm gap fill | 1 | 1 | 3,365 | 123,139 | 36 | 36 | 36 | 2026-09-10 | 2026-09-10 | untried |
 | blackout banter aliases + files cracked from the hashed banter stringtable | 1 | 1 | 34 | 1,339 | 39 | 39 | 39 | 2026-09-11 | 2026-09-11 | untried |
 | black ops 4 source literals | 1 | 1 | 546 | 23,249 | 42 | 42 | 42 | 2026-08-26 | 2026-08-26 | untried |
+| operator dialogue aliases derived from dialogue file names | 1 | 3 | 15,720 | 689,934 | 43 | 22 | 4,791 | 2026-10-15 | 2026-10-15 | spent |
 | sound alias: weapon sound aliases from tables/weapon hashed fields | 1 | 1 | 12 | 543 | 45 | 45 | 45 | 2026-09-11 | 2026-09-11 | untried |
 | voice phrase grids, fill after topic x common quips | 1 | 1 | 374 | 19,340 | 51 | 51 | 51 | 2026-10-06 | 2026-10-06 | untried |
 | sound alias: plaintext alias names from the w28447 dump sound tables + aliases derived from the stems of already-named linked files | 1 | 1 | 254 | 14,836 | 58 | 58 | 58 | 2026-09-11 | 2026-09-11 | untried |
@@ -1794,7 +1795,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon vocabulary growth, then attachment unfolding | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 | names already found and verified, but never sent | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 
-1716 distinct methods, run 2095 ways between them, across 6543 runs. `names` is what each run
+1717 distinct methods, run 2096 ways between them, across 6546 runs. `names` is what each run
 found new to the machine that ran it. A blank candidate count means no run of that method
 recorded one, so it cannot be ranked -- see `--unattributed`.
 <!-- END GENERATED REGISTRY -->

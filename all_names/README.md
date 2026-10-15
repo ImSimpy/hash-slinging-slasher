@@ -76,7 +76,7 @@
 
 <table>
 <tr><th align="left"><code>modwar22/</code></th>
-<th align="right" colspan="2">274,034 names in 5 file(s)</th>
+<th align="right" colspan="2">284,476 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
@@ -84,7 +84,7 @@
 <tr><td><code>image</code></td><td align="right">6,745</td><td align="right">125,229 / 307,431 &nbsp;(40.7%)</td></tr>
 <tr><td><code>xanim</code></td><td align="right">10,184</td><td align="right">55,180 / 55,778 &nbsp;(98.9%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">96,014</td><td align="right">141,925 / 249,863 &nbsp;(56.8%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">40,186</td><td align="right">50,105 / 147,867 &nbsp;(33.9%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">50,628</td><td align="right">60,547 / 147,867 &nbsp;(40.9%)</td></tr>
 </table>
 
 </td>
@@ -92,7 +92,7 @@
 
 <table>
 <tr><th align="left"><code>modwar7/</code></th>
-<th align="right" colspan="2">67,100 names in 5 file(s)</th>
+<th align="right" colspan="2">67,148 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
@@ -100,7 +100,7 @@
 <tr><td><code>image</code></td><td align="right">4,972</td><td align="right">19,845 / 37,365 &nbsp;(53.1%)</td></tr>
 <tr><td><code>xanim</code></td><td align="right">5,937</td><td align="right">31,866 / 35,164 &nbsp;(90.6%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">18,118</td><td align="right">42,572 / 130,464 &nbsp;(32.6%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">36,705</td><td align="right">44,228 / 73,962 &nbsp;(59.8%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">36,753</td><td align="right">44,276 / 73,962 &nbsp;(59.9%)</td></tr>
 </table>
 
 </td>
@@ -110,7 +110,7 @@
 
 <table>
 <tr><th align="left"><code>yamyamok/</code></th>
-<th align="right" colspan="2">210,404 names in 5 file(s)</th>
+<th align="right" colspan="2">215,634 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
@@ -118,7 +118,7 @@
 <tr><td><code>image</code></td><td align="right">15,498</td><td align="right">157,917 / 436,889 &nbsp;(36.1%)</td></tr>
 <tr><td><code>xanim</code></td><td align="right">1,209</td><td align="right">63,423 / 64,407 &nbsp;(98.5%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">50,713</td><td align="right">203,262 / 291,343 &nbsp;(69.8%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">56,772</td><td align="right">68,443 / 166,718 &nbsp;(41.1%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">62,002</td><td align="right">73,673 / 166,718 &nbsp;(44.2%)</td></tr>
 </table>
 
 </td>
