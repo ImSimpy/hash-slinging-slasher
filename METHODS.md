@@ -6175,12 +6175,38 @@ largest gap in any game). Spent by: the corpora as they stand; each snowballs af
 | `sound_tail_swap.py` | every sound-file stem under the 40 most common encoding tails (`.tnn.75.48000.all` ...) | **35** sound files |
 | `packed_material_codes.py` | `twc/*<k>n_<k>dn[_...]` numeric material codes, k < 2,500 | 2 tokens **25**; 3 tokens (1.7T candidates, 0.26 chance matches) ran past 30 min, ~240 recovered by `submit` |
 
+## Negative results describe exact factors and exclusions -- 2026-10-15
+
+The contributor reported earlier zero-yield wide passes on the two legacy captures.
+Later submitted run records use **448,647 stems**, 100,000 explicit endings and
+`bare: yes`: **44,865,148,647 candidate cells** per pass, including the engine's
+empty-ending cell. Those records produced valid submissions of **367 Cold War
+names** ([#2714](https://github.com/KingslayerKyle/hash-slinging-slasher/pull/2714))
+and **167 BO4 names** ([#2713](https://github.com/KingslayerKyle/hash-slinging-slasher/pull/2713)).
+
+The lesson is to record the factor digests, actual counts, capture version, hash/fold
+policy and table/claim revisions beside a zero. The later inputs are a different
+space. A shared engine or similar label does not prove identical factors, that
+only stem growth caused the yield, or that it remains worthwhile to repeat.
+Do not rebuild lists merely to bypass an unchanged-space fingerprint or futility guard.
+
+Modern-title counts in this campaign mix general, sound and follow-up derivations;
+they are not a controlled same-plan comparison across all seven games. Likewise,
+a folded BO4 sound pass cannot establish exhaustion of literal-backslash SAB names.
+
+The `--confirmed-only` corpus can grow with genuinely new verified submissions.
+Treat that as new application vocabulary, measure what changed, and keep the full
+candidate space distinct from the names that survive current exclusion at submission.
+
 ## Dead ends
 
 Do not spend a night rediscovering these. Each cost real time.
 
 | Tried | Outcome |
 |---|---|
+| **Whole-name identity across pools of one capture** -- take a name the game holds in pool A, hash it whole under pool B's policy, ask whether it lands on a B id nothing can name yet (`contrib/name_laundering.py`, 2026-10-14). Different from every cross-type method here, which strip a *core* and re-spell it | Contributor-reported 2026-10-14 measurement: a small space with no confirmed new output. Across seven captures the off-diagonal hits are a trickle next to the same-pool identity (Cold War: 210,244 image names hit image ids, 20 hit material ids), and only **8** landed on an unnamed id anywhere: `misc_vm_missiledefusal_crawl_{f,in,l,r}`, which are xanim names that double as sound_alias names in MWII (12 hits, 4 unnamed) and MWIII (7 hits, 4 unnamed). confirm_list, which subtracts the tables AND the 3.5 M claimed hashes, matched **none of the 8**; two were checked directly and both were reported as already claimed at measurement time. This is **zero** confirmed new output for that recorded run -- though the alias doubling is a fact worth knowing if that batch ever changes hands. |
+| **Measuring `unnamed` against the tables only, not the claims** | The trap that made the row above look like a harvest for a minute. `snapshot.unnamed(known_hashes())` subtracts what the published tables name, which is NOT what is available: `state/claimed.txt` holds 3.5 M hashes from merged submissions and open pull requests, and these 8 were excluded by the tool; the two whose reason was checked by hand were in it. Any provisional new-yield measurement has to subtract both, or it will report somebody else's night as your find -- which is exactly the failure `submit` exists to catch, at the worst possible moment. Second lesson from the same minute: `claimed.txt` lines are 16-hex **hashes**, so grepping it by asset *name* returns nothing and proves nothing. Both of these produced a clean looking zero and a clean looking non-zero in the same hour. |
+| **Two tables in `cod-name-db` nobody had tried as a relation**: `cod_techsets.csv` as the source of material-path tokens, and the five weapon tables (`weapons`, `_attachments`, `_tunables`, `_stylesettings`, `fnv1a_animpkgs_v2`) as a stem vocabulary -- 2026-10-14 | Contributor-reported negative results for these particular source tables and candidate lists: `cod_techsets.csv` holds 1,888 `2d_add#a60c435b`-shaped 2D effect names, not the technique-set token a material path carries, so **0 of 583,725** known `fnv1a_xmaterials` names have one as a path segment. There was no relation to measure, only a name collision with `technique_set` the pool. The weapon half did get measured: 19,581 stems (the table names themselves and their pieces, so the complete names were in the list under `bare: yes`) crossed with each game's committed endings -- 94 M candidates a game on Cold War, MWII and Black Ops 4, 282 M in all, **0 matched on all three**. Its control passed, which is what makes the zero an answer rather than a broken sweep: 51.4% of MWII's 1,367,216 known names and 59.5% of Cold War's 1,351,649 carry at least one segment from that vocabulary. Read that number with its top contributors in mind, because they are `iw9`, `t10`, `sat`, `veh`, `metal`, `smg` -- three-to-four-letter generic fragments, not weapon codenames, and 1,319 distinct stems in all. A control that reports only a percentage would have looked far stronger than it is; print the contributors. Same wall as every seam row above: the pieces are shared because it is one engine's vocabulary, and sharing pieces says nothing about whether the recombined name exists. It also re-confirms the recorded cross-era verbatim zero, three captures wide, for the cost of a coffee. |
 | **BO7 packed image suffix as a non-FNV hash**, 2026-10-09 | 300 `A&B~N` names from `fnv1a_ximages_v2` (45% of that table is packed): N against xxh64 (seed 0 and the modern basis), xxh3, murmur3 x64 both halves, md5/sha1/sha256 first 8 bytes in both byte orders, and both FNV bases, over the whole text, the parts joined bare / by newline / by comma, and each part alone, upper and lower case, masked 64/63/32: **0 hits.** Likely a content hash; packed images are unreachable from names. |
 | **BO7 terrain tile grid**, 2026-10-09 | `saw_sierra_<hex>_<x>_<y>_<z>_emissivitymap`: every integer x,y in [-400,400] under the 16 known hexes, z -8..8, 16 channels: **0.** Each hex names one tile. |
 | **BO7 weapon sound files across sibling weapons**, 2026-10-09 | `weapon_sound_swap.py`: 66,280 `<title>/wpn/<class>/{W}/...` templates filled with every weapon of the class (436k): **0.** Same result as Cold War's weapon event grid. |
