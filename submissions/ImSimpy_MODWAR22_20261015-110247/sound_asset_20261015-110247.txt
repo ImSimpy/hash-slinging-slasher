@@ -1,0 +1,13 @@
+ab402320a5b1453,vo_efforts.zmb.zmb_effort_death_05.ln.75.36000.all
+20fea4f2c22a9b9c,vo_efforts.zmb.zmb_effort_death_04.ln.75.36000.all
+23748aa892a03908,vo_efforts.zmb.zmb_npc_effort_pain_07.sn.75.36000.all
+26dd17d028b6f7ac,vo_efforts.zmb.zmb_effort_attack_04.ln.75.36000.all
+27746febac7a228f,vo_efforts.zmb.zmb_npc_effort_pain_06.sn.75.36000.all
+39995da6257668e3,vo_efforts.zmb.zmb_effort_attack_05.ln.75.36000.all
+3d8b9b537dab78e4,iw9.sp.tkdn.vm_sp_takedown_pistol_left_02_bodyfall.ln.75.48000.all
+47e835cd47348039,vo_efforts.zmb.zmb_npc_effort_pain_04.sn.75.36000.all
+5010b3e7b0f59c46,iw9.sp.tkdn.vm_sp_takedown_pistol_back_02_bodyfall.ln.75.48000.all
+583c4974db45900d,vo_efforts.zmb.zmb_npc_effort_pain_08.sn.75.36000.all
+65767bd7fe0c74da,vo_efforts.zmb.zmb_npc_effort_pain_05.sn.75.36000.all
+6674abc9049706ba,iw9.sp.tkdn.vm_sp_takedown_pistol_right_01_bodyfall.ln.75.48000.all
+6f1af4e2c7f3ffa0,iw9.amb.ambient_iw9.amb_mp_delta_castle_catacombs_int_01_lr.sl.75.48000.all
