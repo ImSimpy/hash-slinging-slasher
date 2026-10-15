@@ -1,0 +1,8 @@
+7c0cabc930743ca,jup.eqp.cable_ascenders.jup_eqp_cable_ascenders_attach_fly_01.ln.85.48000.all
+29bdf5347f1a2149,s6.mp.mp_secure.dx_mp_secu_mode_detl_sppc_remoteterminalisnear.sn.75.48000.english
+3d8b9b537dab78e4,iw9.sp.tkdn.vm_sp_takedown_pistol_left_02_bodyfall.ln.75.48000.all
+5010b3e7b0f59c46,iw9.sp.tkdn.vm_sp_takedown_pistol_back_02_bodyfall.ln.75.48000.all
+549a21383a9abbe9,jup.eqp.emp_grenade.eqp_emp_grenade_explo_med_05.lnn.75.48000.all
+612b69128487a4be,jup.wpn.sn.moscar.wpn_sn_moscar_charge_fire_npc_swt_05.lnn.85.48000.all
+6674abc9049706ba,iw9.sp.tkdn.vm_sp_takedown_pistol_right_01_bodyfall.ln.75.48000.all
+793358386d2186e1,jup.wpn.sn.moscar.wpn_sn_moscar_charge_fire_npc_swt_06.lnn.85.48000.all
