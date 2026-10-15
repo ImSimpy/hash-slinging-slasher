@@ -1845,6 +1845,7 @@ d738f61f5f4e843,iw9/amb/amb_emitters/ventsfans/br_bunker_glitch_02.dnn.75.48000.
 6f4a13bb55fc56da,iw9/amb/amb_emitters/ventsfans/br_bunker_ready_logo.dnn.75.48000.all
 57eb277a05b33e75,iw9/amb/amb_emitters/ventsfans/emt_industrial_fan_med1.dnl.85.48000.all
 36ee8fbd4c7f8927,iw9/amb/amb_emitters/ventsfans/emt_sm_vent_rattle_lp_01.dnl.75.48000.all
+2d0001b2bd902c06,iw9/amb/amb_emitters/ventsfans/emt_sm_vent_rattle_lp_01_mono.dnl.85.48000.all
 1c73bf4724a1d733,iw9/amb/amb_emitters/water/emt_light_drips_01_lp.dnl.85.48000.all
 94516ccabdcb463,iw9/amb/amb_emitters/water/emt_light_drips_01_lp.snl.75.48000.all
 4d6402b84631b20a,iw9/amb/amb_emitters/water/emt_light_drips_02_lp.dnl.85.48000.all
@@ -3302,6 +3303,7 @@ daaf4a786f6dacd,iw9/mp/mp_killstreak/dx_mp_kill_chop_uktl_earn_choppergunnerread
 51274b5ba71d3e23,iw9/mp/mp_killstreak/dx_mp_kill_chop_uktl_euse_hostilechoppergunner.snn.20.48000.english_safe
 64592f618651296f,iw9/mp/mp_killstreak/dx_mp_kill_chop_uktl_euse_hostilechoppergunner_01.snn.20.48000.english
 25660f113eeaaefd,iw9/mp/mp_killstreak/dx_mp_kill_chop_uktl_euse_hostilechoppergunner_01.snn.20.48000.english_safe
+3dd2aad53f0133c4,iw9/mp/mp_killstreak/dx_mp_kill_chop_uktl_euse_hostilechoppergunner_02.snn.20.48000.english_safe
 7df98cbcb20371d,iw9/mp/mp_killstreak/dx_mp_kill_cmis_kthp_rhit_directhit.snn.75.48000.english_safe
 5f24f2d0c1cf8d03,iw9/mp/mp_killstreak/dx_mp_kill_cmis_kthp_rhit_impactgoodhit.snn.75.48000.english_safe
 1b029220fb9b6825,iw9/mp/mp_killstreak/dx_mp_kill_cmis_kthp_rhit_rightontarget.snn.75.48000.english_safe
@@ -3324,6 +3326,7 @@ ea49a9d654a1a62,iw9/mp/mp_killstreak/dx_mp_kill_cmis_sghp_rhit_rightontarget.snn
 3d86941aea371c88,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_ause_friendlycruisemissil.snn.20.48000.english_safe
 3b778d29537062cc,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_ause_friendlycruisemissil_01.snn.20.48000.english
 62b735facf75806c,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_ause_friendlycruisemissil_01.snn.20.48000.english_safe
+1d691ba09e5f3f85,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_ause_friendlycruisemissil_02.snn.20.48000.english_safe
 19a879dbdec51342,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_earn_cruisemissilereadyfo.snn.20.48000.english
 5f71528dd14904e2,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_earn_cruisemissilereadyfo.snn.20.48000.english_safe
 1fc0f410026ca7d0,iw9/mp/mp_killstreak/dx_mp_kill_cmis_uktl_earn_cruisemissilereadyto.snn.20.48000.english
@@ -3422,6 +3425,7 @@ f8a3cebdc2ef135,iw9/mp/mp_killstreak/dx_mp_kill_cuav_uktl_earn_counteruavready.s
 719226565dec0a4a,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_ause_friendlyoverwatchhel.snn.20.48000.english_safe
 12a551c572fcaf16,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_ause_friendlyoverwatchhel_01.snn.20.48000.english
 31cefd0db7458116,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_ause_friendlyoverwatchhel_01.snn.20.48000.english_safe
+1f891016838689eb,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_ause_friendlyoverwatchhel_02.snn.20.48000.english_safe
 4775c12f3fdbd59e,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_earn_overwatchheloreadyfo.snn.20.48000.english
 3c4a40da0d82591e,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_earn_overwatchheloreadyfo.snn.20.48000.english_safe
 67d74f336be0accc,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_earn_overwatchheloreadyto.snn.20.48000.english
@@ -3432,6 +3436,7 @@ f8a3cebdc2ef135,iw9/mp/mp_killstreak/dx_mp_kill_cuav_uktl_earn_counteruavready.s
 7e77a1ea4de2f48e,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_euse_hostileoverwatchhelo.snn.20.48000.english_safe
 58aaec2252b2dc8a,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_euse_hostileoverwatchhelo_01.snn.20.48000.english
 5a384fca1964778a,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_euse_hostileoverwatchhelo_01.snn.20.48000.english_safe
+d582c0db635e54f,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_euse_hostileoverwatchhelo_02.snn.20.48000.english_safe
 5f6f6f02b4c36e27,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_lcra_hostilesdestroyedour.snn.20.48000.english
 6379f950b96e8675,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_lcra_hostilesdestroyedour.snn.20.48000.english_safe
 6849c746443fcecf,iw9/mp/mp_killstreak/dx_mp_kill_esco_uktl_lcra_hostilesshotdownouro.snn.20.48000.english
@@ -3460,6 +3465,7 @@ c227244be9aa749,iw9/mp/mp_killstreak/dx_mp_kill_grim_ktap_rres_thisisvulture61so
 3c9754daa47a6c1d,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_ause_friendlystealthbombe.snn.20.48000.english_safe
 55ba5c41cc2d23d9,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_ause_friendlystealthbombe_01.snn.20.48000.english
 75ead8ba3cc6750f,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_ause_friendlystealthbombe_01.snn.20.48000.english_safe
+5ebbda00b67f0d4a,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_ause_friendlystealthbombe_02.snn.20.48000.english_safe
 740b57095030fc41,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_earn_stealthbomberisready.snn.20.48000.english
 1a705b440e8a6257,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_earn_stealthbomberisready.snn.20.48000.english_safe
 598c3d3bc1751163,iw9/mp/mp_killstreak/dx_mp_kill_grim_uktl_earn_stealthbomberisready_01.snn.20.48000.english
@@ -5932,6 +5938,8 @@ f51db779b31dc70,jup/wpn/sm/talpham/reloads/p25_ar_talpha95_reload_xmag_start.tnn
 50b2d0ad7a39559b,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_02.tnn.85.48000.all
 40258bfee5a649c6,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_03.tnn.85.48000.all
 67a87033571a734d,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_04.tnn.85.48000.all
+60291fe95bee7110,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_05.tnn.85.48000.all
+406473f403355f0f,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_06.tnn.85.48000.all
 302cca2f23677412,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_far_01.tnn.85.48000.all
 50b5201017bb5335,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_far_02.tnn.85.48000.all
 62b50e761d3640b8,jup/wpn/sn/moscar/wpn_sn_moscar_charge_fire_npc_swt_far_03.tnn.85.48000.all
