@@ -1,0 +1,10 @@
+8f2200a5d3d2e54,i/vfx_rex_decal_drywalldust_05
+9d7046a64f76843,m/cos_rex_chain
+118e1b8581e0aef9,m/att_rex_ammo_68s_hp
+118e1d8581e0b25f,m/att_rex_ammo_68s_hv
+119f198581ef1ec6,m/att_rex_ammo_68s_op
+11a6258581f551d8,m/att_rex_ammo_68s_ap
+11b72d858203d2a3,m/att_rex_ammo_68s_df
+11be35858209fee9,m/att_rex_ammo_68s_fn
+1e5b1c02621d5374,m/att_lens_minireddot_rex_pstl_03_far
+76324d0a22eca221,m/cos_rex_000_temp
