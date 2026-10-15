@@ -6,15 +6,15 @@
 
 <table>
 <tr><th align="left"><code>blackop6/</code></th>
-<th align="right" colspan="2">229,259 names in 5 file(s)</th>
+<th align="right" colspan="2">231,016 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
-<tr><td><code>material</code></td><td align="right">69,094</td><td align="right">139,463 / 186,048 &nbsp;(75.0%)</td></tr>
-<tr><td><code>image</code></td><td align="right">28,331</td><td align="right">75,715 / 389,526 &nbsp;(19.4%)</td></tr>
-<tr><td><code>xanim</code></td><td align="right">13,079</td><td align="right">81,308 / 87,620 &nbsp;(92.8%)</td></tr>
-<tr><td><code>sound_asset</code></td><td align="right">17,968</td><td align="right">97,212 / 327,081 &nbsp;(29.7%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">100,787</td><td align="right">115,670 / 207,980 &nbsp;(55.6%)</td></tr>
+<tr><td><code>material</code></td><td align="right">69,261</td><td align="right">139,630 / 186,048 &nbsp;(75.1%)</td></tr>
+<tr><td><code>image</code></td><td align="right">28,421</td><td align="right">75,805 / 389,526 &nbsp;(19.5%)</td></tr>
+<tr><td><code>xanim</code></td><td align="right">13,154</td><td align="right">81,383 / 87,620 &nbsp;(92.9%)</td></tr>
+<tr><td><code>sound_asset</code></td><td align="right">18,066</td><td align="right">97,310 / 327,081 &nbsp;(29.8%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">102,114</td><td align="right">116,997 / 207,980 &nbsp;(56.3%)</td></tr>
 </table>
 
 </td>
@@ -22,14 +22,14 @@
 
 <table>
 <tr><th align="left"><code>blackop7/</code></th>
-<th align="right" colspan="2">340,512 names in 5 file(s)</th>
+<th align="right" colspan="2">340,676 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
 <tr><td><code>material</code></td><td align="right">74,755</td><td align="right">180,040 / 388,231 &nbsp;(46.4%)</td></tr>
 <tr><td><code>image</code></td><td align="right">30,813</td><td align="right">93,779 / 839,489 &nbsp;(11.2%)</td></tr>
 <tr><td><code>xanim</code></td><td align="right">10,258</td><td align="right">91,779 / 97,260 &nbsp;(94.4%)</td></tr>
-<tr><td><code>sound_asset</code></td><td align="right">70,761</td><td align="right">170,386 / 399,776 &nbsp;(42.6%)</td></tr>
+<tr><td><code>sound_asset</code></td><td align="right">70,925</td><td align="right">170,550 / 399,776 &nbsp;(42.7%)</td></tr>
 <tr><td><code>sound_alias</code></td><td align="right">153,925</td><td align="right">176,429 / 254,502 &nbsp;(69.3%)</td></tr>
 </table>
 
@@ -131,9 +131,9 @@ the community tables, against every id the game holds.
 
 They are not the same measure, and the second is much the larger.
 
-Where `image` under `blackop6/` reads 28,331 and 75,715 / 389,526:
-this project found 28,331 of the 75,715 names anybody has for that pool, and
-313,811 of its ids are still nameless. The percentage is the fraction named,
+Where `image` under `blackop6/` reads 28,421 and 75,805 / 389,526:
+this project found 28,421 of the 75,805 names anybody has for that pool, and
+313,721 of its ids are still nameless. The percentage is the fraction named,
 not the fraction found here.
 
 The emptiest pool is `image` under `blackop7/`: 93,779 of 839,489 named,
