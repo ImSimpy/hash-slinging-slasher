@@ -304,11 +304,11 @@ table under a name you would not have guessed is the thing you are about to rebu
 | voice phrase grids, fill after deep quips | 1 | 1 | 102 | 18,802 | 184 | 184 | 184 | 2026-10-05 | 2026-10-05 | untried |
 | frozen material relations on 152 new image roots | 1 | 1 | 7 | 1,300 | 185 | 185 | 185 | 2026-10-15 | 2026-10-15 | untried |
 | zombies aether vo grid round 2: bod plr 0-16 x (csv + common + mitm-found events), plus mitm round-3 hits | 1 | 1 | 487 | 101,127 | 207 | 207 | 207 | 2026-09-10 | 2026-09-10 | untried |
-| operator dialogue alias grid, (category, line) x speaker | 1 | 4 | 3,369 | 770,740 | 228 | 119 | 6,247 | 2026-10-15 | 2026-10-15 | spent |
 | aliases from sound-file basenames, take numbers stripped, segment-trimmed | 1 | 2 | 4,895 | 1,144,673 | 233 | 208 | 208 | 2026-10-08 | 2026-10-08 | live |
 | encrypted zone strings, decrypted | 1 | 4 | 13,488 | 3,176,084 | 235 | 133 | 1,946 | 2026-10-10 | 2026-10-10 | spent |
 | vo: gpu gap fill rerun with  n s variants (zm + mp prefixes) + cpu variant probe | 1 | 1 | 357 | 84,856 | 237 | 237 | 237 | 2026-09-10 | 2026-09-10 | untried |
 | vo sound files derived from known vox  sound aliases: en\vox\scripted\<mode>\<map>\<alias> <n> | 1 | 1 | 12,846 | 3,180,688 | 247 | 247 | 247 | 2026-09-10 | 2026-09-10 | untried |
+| operator dialogue alias grid, (category, line) x speaker | 1 | 5 | 3,701 | 963,100 | 260 | 119 | 6,247 | 2026-10-15 | 2026-10-15 | spent |
 | frozen alias rules through verified frontier | 1 | 1 | 79 | 20,991 | 265 | 265 | 265 | 2026-10-09 | 2026-10-09 | untried |
 | mwiii-terrain-overlap | 1 | 1 | 54 | 14,881 | 275 | 275 | 275 | 2026-10-09 | 2026-10-09 | untried |
 | voice phrase grids, fill after probe | 1 | 1 | 66 | 18,604 | 281 | 281 | 281 | 2026-10-05 | 2026-10-05 | untried |
@@ -1789,7 +1789,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | measured shells, head 6 tail 7, top 1600 | 1 | 1 | 1 | 1,313,248,342,747 | 1,313,248,342,747 | 1,313,248,342,747 | 1,313,248,342,747 | 2026-09-03 | 2026-09-03 | untried |
 | measured shells, head 8 tail 6, top 1600 | 1 | 1 | 1 | 1,360,231,817,077 | 1,360,231,817,077 | 1,360,231,817,077 | 1,360,231,817,077 | 2026-09-03 | 2026-09-03 | untried |
 | v2 material borrowed endings, ranks 32001-40000 | 1 | 1 | 1 | 1,695,955,968,000 | 1,695,955,968,000 | 1,695,955,968,000 | 1,695,955,968,000 | 2026-08-25 | 2026-08-25 | untried |
-| not recorded | 1 | 203 | 9,990 | - | - | - | - | 2026-08-19 | 2026-10-15 | unmeasured |
+| not recorded | 1 | 204 | 9,990 | - | - | - | - | 2026-08-19 | 2026-10-15 | unmeasured |
 | bo3 techset tag sweep | 1 | 2 | 1,673 | - | - | - | - | 2026-08-18 | 2026-08-19 | unmeasured |
 | general search, confirmed seeds only | 1 | 4 | 531 | - | - | - | - | 2026-08-20 | 2026-08-31 | unmeasured |
 | cutting at underscores and recombining | 1 | 1 | 435 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
@@ -1812,7 +1812,7 @@ table under a name you would not have guessed is the thing you are about to rebu
 | weapon vocabulary growth, then attachment unfolding | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 | names already found and verified, but never sent | 1 | 1 | 0 | - | - | - | - | 2026-08-19 | 2026-08-19 | unmeasured |
 
-1734 distinct methods, run 2113 ways between them, across 6610 runs. `names` is what each run
+1734 distinct methods, run 2113 ways between them, across 6612 runs. `names` is what each run
 found new to the machine that ran it. A blank candidate count means no run of that method
 recorded one, so it cannot be ranked -- see `--unattributed`.
 <!-- END GENERATED REGISTRY -->
