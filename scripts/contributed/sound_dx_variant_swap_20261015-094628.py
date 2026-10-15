@@ -25,8 +25,14 @@ TOKENS = ["ogr1", "ogr2", "ogr3", "opg1", "opg2", "opg3", "opg4"]
 
 
 def main():
+    if len(sys.argv) != 2 or sys.argv[1].upper() not in {"MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"}:
+        raise SystemExit("Supply one supported modern game")
     game = sys.argv[1].upper()
     out = ROOT / "contrib" / "out"
+    out.mkdir(parents=True, exist_ok=True)
+    (ROOT / "plans").mkdir(parents=True, exist_ok=True)
+    if not (out / f"stf_{game}.ends.txt").is_file():
+        raise SystemExit("Run sound_tail_factored for this game first")
     stems = set()
     for head in (out / f"stf_{game}.stems.txt").open(encoding="utf-8"):
         m = VARIANT.match(head.strip())
