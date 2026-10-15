@@ -31,10 +31,11 @@ def file_bases():
     paths = [ROOT / "state" / "an" / f"{g}_sound_asset.named" for g in MODERN]
     paths += list(Path(settings.path("findings", "findings")).rglob("sound_asset*.txt"))
     for p in paths:
-        for line in p.open(encoding="utf-8", errors="replace"):
-            m = BASE.search(line.lower())
-            if m:
-                yield m.group(1)
+        with p.open(encoding="utf-8", errors="replace") as lines:
+            for line in lines:
+                m = BASE.search(line.lower())
+                if m:
+                    yield m.group(1)
 
 
 def aliases(base):
@@ -56,8 +57,8 @@ def main():
         cands.update(aliases(b))
     if "--measure" in sys.argv:
         for g in MODERN:
-            named = {l.strip() for l in (ROOT / "state" / "an" / f"{g}_sound_alias.named")
-                     .open(encoding="utf-8") if l.startswith("dx_op_")}
+            with (ROOT / "state" / "an" / f"{g}_sound_alias.named").open(encoding="utf-8") as lines:
+                named = {l.strip() for l in lines if l.startswith("dx_op_")}
             print(f"{g}: {len(named & cands):,} of {len(named):,} resolved dx_op_ aliases reproduced",
                   file=sys.stderr)
         print(f"{len(cands):,} candidates", file=sys.stderr)
