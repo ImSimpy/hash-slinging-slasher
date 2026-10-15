@@ -1,0 +1,5 @@
+50b53627dc07abc,mp.equip.iw8_mp_adrenaline_remove_stim_sfx.ln.85.48000.all
+522b53f834ce496,mp.br.iw9_br_gas_mask_off_plr.sn.85.48000.all
+59eae0d701ecb064,mp.br.iw9_br_gas_mask_on_plr.sn.85.48000.all
+6dcc161a080d6b85,vo_efforts.zmb.zmb_npc_effort_pain_08.sn.85.48000.all
+6fde603fb0800540,vo_efforts.zmb.zmb_npc_effort_pain_07.sn.85.48000.all
