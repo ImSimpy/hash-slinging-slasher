@@ -9,6 +9,16 @@ import random
 import sys
 import zlib
 
+ROOT = Path(__file__).resolve().parent
+while not (ROOT / "scripts" / "snapshot.py").is_file() and ROOT != ROOT.parent:
+    ROOT = ROOT.parent
+if not (ROOT / "scripts" / "snapshot.py").is_file():
+    raise SystemExit("Run inside a hash-slinging-slasher checkout")
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+from generator_inputs import all_known_names, modern_game, modern_names, named_names, output_dir, sound_lists
+
+
 MASK64 = (1 << 64) - 1
 
 
@@ -30,8 +40,8 @@ def murmur_like(s):
     return zlib.crc32(s.encode())
 
 
-game = sys.argv[1] if len(sys.argv) > 1 else "MODWAR22"
-names = [l.strip() for l in Path(f"state/an/{game}_image.named").open(encoding="utf-8") if "~" in l]
+game = modern_game(sys.argv[1]) if len(sys.argv) == 2 else "MODWAR22"
+names = sorted(n for n in named_names(game, "image") if "~" in n)
 print(f"{game}: {len(names):,} packed of resolved images")
 random.seed(1)
 hits = {}
@@ -49,4 +59,4 @@ for n in random.sample(names, min(300, len(names))):
                 if h == v or h & (MASK64 >> 1) == v & (MASK64 >> 1):
                     hits[label] = hits.get(label, 0) + 1
 print("matches:", hits or "none")
-print("examples:", *random.sample(names, 3), sep="\n  ")
+print("examples:", *random.sample(names, min(3, len(names))), sep="\n  ")
