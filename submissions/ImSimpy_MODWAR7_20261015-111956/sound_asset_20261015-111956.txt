@@ -1,0 +1,5 @@
+8dc0632f6fc02d,rex/eqp/sam_turret/kls_sam_turret_target_search_01.dnl.75.48000.all
+8c50a2c5a7fc6e6,rex/eqp/sam_turret/kls_sam_turret_missile_travel_lp_02.dnl.75.48000.all
+444fa845df7053bb,rex/eqp/sam_turret/kls_sam_turret_missile_travel_lp_03.dnl.75.48000.all
+55a2611c257c8e5f,rex/eqp/sam_turret/kls_sam_turret_activate_beep_01.dnn.75.48000.all
+71885bc4050c57c9,rex/eqp/sam_turret/kls_sam_turret_missile_travel_lp_01.dnl.75.48000.all
