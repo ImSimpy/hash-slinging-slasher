@@ -9,7 +9,12 @@ from pathlib import Path
 import re
 import sys
 
-AN = Path("state/an")
+ROOT = Path(__file__).resolve().parent
+while not (ROOT / "scripts/snapshot.py").is_file() and ROOT != ROOT.parent:
+    ROOT = ROOT.parent
+if not (ROOT / "scripts/snapshot.py").is_file():
+    raise SystemExit("Run inside a hash-slinging-slasher checkout")
+AN = ROOT / "state/an"
 DOTTED_TAIL = re.compile(r"\.([a-z]{1,4})\.(\d{1,3})\.(\d{4,6})\.all$")
 
 
@@ -21,7 +26,9 @@ def split(game, name):
     return name[:m.start()].replace("/", "."), sep + " " + m.group(0)[1:]
 
 
-games = sys.argv[1:] or ["MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"]
+games = [g.upper() for g in sys.argv[1:]] or ["MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"]
+if any(g not in {"MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"} for g in games):
+    raise SystemExit("Choose a supported modern game")
 heads = {}
 for g in games:
     tails = Counter()

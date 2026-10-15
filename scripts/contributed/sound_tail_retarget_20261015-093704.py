@@ -15,7 +15,7 @@ title and unnamed in another: the tail differs. This writes the plan lists for t
     bin/windows/confirm_plan plans/stt_<GAME>.txt --game <GAME>
 
 Needs state/an/<GAME>_sound_asset.named (scripts/contributed/_dump_named_*.py, run with
-PYTHONPATH=scripts) and contrib/out/every_name.txt (every_game_transfer output).
+python scripts/export_named.py; contrib/out/every_name.txt is optional).
 Spent by: a target already offered the heads as they stand; re-run when any title gains sound names.
 """
 from collections import Counter
@@ -42,9 +42,13 @@ def heads_and_tails(lines):
 
 
 def main():
+    if len(sys.argv) != 2 or sys.argv[1].upper() not in {"MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"}:
+        raise SystemExit("Supply one supported modern game")
     game = sys.argv[1].upper()
     an = ROOT / "state" / "an"
     out = ROOT / "contrib" / "out"
+    out.mkdir(parents=True, exist_ok=True)
+    (ROOT / "plans").mkdir(parents=True, exist_ok=True)
     heads = set()
     tails = Counter()
     for g in MODERN:
