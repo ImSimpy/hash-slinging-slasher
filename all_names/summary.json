@@ -38,24 +38,24 @@
     },
     "blackop7": {
       "files": 5,
-      "names": 331476,
+      "names": 335787,
       "types": {
         "image": {
           "found_pct": 11.0,
-          "named": 92384,
-          "names": 29418,
+          "named": 92463,
+          "names": 29497,
           "total": 839489
         },
         "material": {
           "found_pct": 46.2,
-          "named": 179492,
-          "names": 74207,
+          "named": 179555,
+          "names": 74270,
           "total": 388231
         },
         "sound_alias": {
-          "found_pct": 66.7,
-          "named": 169662,
-          "names": 147158,
+          "found_pct": 68.3,
+          "named": 173820,
+          "names": 151316,
           "total": 254502
         },
         "sound_asset": {
@@ -66,8 +66,8 @@
         },
         "xanim": {
           "found_pct": 94.2,
-          "named": 91593,
-          "names": 10072,
+          "named": 91604,
+          "names": 10083,
           "total": 97260
         }
       }
@@ -275,6 +275,6 @@
   ],
   "totals": {
     "games": 7,
-    "names": 1407478
+    "names": 1411789
   }
 }

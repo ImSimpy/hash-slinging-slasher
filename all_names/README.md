@@ -22,15 +22,15 @@
 
 <table>
 <tr><th align="left"><code>blackop7/</code></th>
-<th align="right" colspan="2">331,476 names in 5 file(s)</th>
+<th align="right" colspan="2">335,787 names in 5 file(s)</th>
 </tr>
 <tr><th align="left">asset type</th><th align="right">found here</th><th align="right">named, of all in the game</th>
 </tr>
-<tr><td><code>material</code></td><td align="right">74,207</td><td align="right">179,492 / 388,231 &nbsp;(46.2%)</td></tr>
-<tr><td><code>image</code></td><td align="right">29,418</td><td align="right">92,384 / 839,489 &nbsp;(11.0%)</td></tr>
-<tr><td><code>xanim</code></td><td align="right">10,072</td><td align="right">91,593 / 97,260 &nbsp;(94.2%)</td></tr>
+<tr><td><code>material</code></td><td align="right">74,270</td><td align="right">179,555 / 388,231 &nbsp;(46.2%)</td></tr>
+<tr><td><code>image</code></td><td align="right">29,497</td><td align="right">92,463 / 839,489 &nbsp;(11.0%)</td></tr>
+<tr><td><code>xanim</code></td><td align="right">10,083</td><td align="right">91,604 / 97,260 &nbsp;(94.2%)</td></tr>
 <tr><td><code>sound_asset</code></td><td align="right">70,621</td><td align="right">170,246 / 399,776 &nbsp;(42.6%)</td></tr>
-<tr><td><code>sound_alias</code></td><td align="right">147,158</td><td align="right">169,662 / 254,502 &nbsp;(66.7%)</td></tr>
+<tr><td><code>sound_alias</code></td><td align="right">151,316</td><td align="right">173,820 / 254,502 &nbsp;(68.3%)</td></tr>
 </table>
 
 </td>
@@ -136,8 +136,8 @@ this project found 28,320 of the 75,704 names anybody has for that pool, and
 313,822 of its ids are still nameless. The percentage is the fraction named,
 not the fraction found here.
 
-The emptiest pool is `image` under `blackop7/`: 92,384 of 839,489 named,
-so 747,105 ids carry no name at all. That is the largest unworked ground
+The emptiest pool is `image` under `blackop7/`: 92,463 of 839,489 named,
+so 747,026 ids carry no name at all. That is the largest unworked ground
 here, and it is invisible from a count on its own.
 
 The community half of that is measured against `cod-name-db` on 2026-10-08 and stored in
