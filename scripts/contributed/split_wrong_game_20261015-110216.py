@@ -1,45 +1,55 @@
-"""Move names that do not hash into a game's own capture out of that game's aggregate findings.
-(repair helper, not a method)
+"""Read-only exact-game/pool/key audit of aggregate findings. Never edits results.
 
-Rule 3: never write one game's names into another's files. A name whose hash under <GAME>'s policy
-is not an id of that pool in <GAME>'s snapshot is not a <GAME> result. Kept lines stay in
-findings/<game>/<pool>.txt; removed lines are appended to <quarantine>/<game>/<pool>.wrong_game.txt.
-Run only after the originals are copied aside.
-
-    PYTHONPATH=scripts python contrib/split_wrong_game.py <quarantine dir> <GAME>...
+Usage: python THIS_SCRIPT --check GAME ...
+Malformed rows, wrong hash width and BO4 sound folding errors fail closed.
+Quarantine/move mode was removed because aggregate results must only grow.
 """
+import argparse
 from pathlib import Path
 import sys
+ROOT = Path(__file__).resolve().parent
+while not (ROOT / "scripts" / "snapshot.py").is_file() and ROOT != ROOT.parent:
+    ROOT = ROOT.parent
+if not (ROOT / "scripts" / "snapshot.py").is_file():
+    raise SystemExit("Run inside a hash-slinging-slasher checkout")
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+from generator_inputs import all_known_names, modern_game, modern_names, named_names, output_dir, sound_lists
 
 import snapshot
+import settings
 
-M = snapshot.ID_MASK
-check_only = sys.argv[1] == "--check"     # report only; exit 1 if any game holds a wrong name
-quarantine = Path(sys.argv[1])
-found_wrong = 0
-for game in sys.argv[2:]:
-    pools = snapshot.read(f"snapshots/{game.lower()}.ids").by_pool()
-    for f in sorted(Path(f"findings/{game.lower()}").glob("*.txt")):
-        ids = {i & M for i in pools.get(f.stem, [])}
-        keep, wrong = [], []
-        for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
-            _, _, name = line.partition(",")
-            if name and snapshot.fnv1a(name, game, f.stem) & M not in ids:
-                wrong.append(line)
-            else:
-                keep.append(line)
-        found_wrong += len(wrong)
-        if check_only:
-            if wrong:
-                print(game, f.stem, "WRONG-GAME names:", len(wrong))
-            continue
-        if wrong:
-            out = quarantine / game.lower()
-            out.mkdir(parents=True, exist_ok=True)
-            with (out / f"{f.stem}.wrong_game.txt").open("a", encoding="utf-8") as q:
-                q.write("\n".join(wrong) + "\n")
-            f.write_text("\n".join(keep) + ("\n" if keep else ""), encoding="utf-8")
-        print(game, f.stem, "kept", len(keep), "moved", len(wrong))
-if check_only:
-    print("wrong-game names in aggregates:", found_wrong)
-    sys.exit(1 if found_wrong else 0)
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true', required=True)
+    parser.add_argument('games', nargs='+', choices=sorted(snapshot.MODERN | {'BLKOPS04','BLKOPSCW'}))
+    args = parser.parse_args()
+    root = Path(settings.path('findings', 'findings'))
+    errors = 0
+    shots = {}
+    for source in snapshot.snapshots():
+        shot = snapshot.read(source)
+        if shot.game in shots: raise ValueError('Multiple captures for '+shot.game)
+        shots[shot.game] = shot
+    for game in args.games:
+        shot = shots.get(game)
+        if shot is None: raise ValueError('Missing exact-game capture: '+game)
+        pools = shot.by_pool()
+        for path in sorted((root/game.lower()).glob('*.txt')):
+            kind = path.stem
+            held = {key & snapshot.ID_MASK for key in pools.get(kind, [])}
+            for line, row in enumerate(path.read_text(encoding='utf8').splitlines(),1):
+                raw, sep, name = row.partition(',')
+                good = bool(sep and name and name == name.strip() and not any(ord(c)<32 or ord(c)==127 for c in name))
+                try: stored = int(raw,16)
+                except ValueError: good = False; stored = -1
+                full = snapshot.fnv1a_nofold(name) if game == 'BLKOPS04' and kind == 'sound_asset' else snapshot.fnv1a(name,game,kind)
+                expected = full if game in snapshot.MODERN and kind == 'sound_alias' else full & snapshot.ID_MASK
+                if not good or stored != expected or expected & snapshot.ID_MASK not in held:
+                    print(f'{game} {kind} line {line}: invalid key/spelling or absent from exact captured pool')
+                    errors += 1
+    print('invalid aggregate rows:',errors)
+    return 1 if errors else 0
+
+if __name__ == '__main__':
+    raise SystemExit(main())
