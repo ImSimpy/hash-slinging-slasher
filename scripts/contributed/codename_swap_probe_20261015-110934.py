@@ -9,13 +9,22 @@ swap generator would have.
 from pathlib import Path
 import re
 
+ROOT = Path(__file__).resolve().parent
+while not (ROOT / "scripts" / "snapshot.py").is_file() and ROOT != ROOT.parent:
+    ROOT = ROOT.parent
+if not (ROOT / "scripts" / "snapshot.py").is_file():
+    raise SystemExit("Run inside a hash-slinging-slasher checkout")
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+from generator_inputs import all_known_names, modern_game, modern_names, named_names, output_dir, sound_lists
+
+
 CODES = ["iw8", "iw9", "jup", "t9", "t10", "sat", "rex", "s4", "s6", "cer", "wz"]
 TOKEN = re.compile(r"(?<![a-z0-9])(" + "|".join(CODES) + r")(?![a-z0-9])")
 MODERN = ["MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"]
 
 for pool in ("image", "material", "xanim", "sound_alias"):
-    named = {g: {l.strip() for l in Path(f"state/an/{g}_{pool}.named").open(encoding="utf-8")}
-             for g in MODERN}
+    named = {g: named_names(g,pool) for g in MODERN}
     allnamed = set().union(*named.values())
     for g in MODERN:
         hits = cands = 0
