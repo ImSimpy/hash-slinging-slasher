@@ -9,7 +9,8 @@ operator files (method 33), none of whose aliases had been offered.
     python contrib/dx_alias_from_files.py --measure      how many resolved aliases this reproduces
     python contrib/dx_alias_from_files.py | confirm_list - --game <GAME>
 
-Reads every modern `state/an/*_sound_asset.named` plus today's findings.
+Reads every modern `state/an/*_sound_asset.named` plus the configured findings.
+Prepare the named inputs with `python scripts/export_named.py` first.
 """
 from pathlib import Path
 import re
@@ -19,13 +20,16 @@ ROOT = Path(__file__).resolve().parent
 while not (ROOT / "scripts" / "snapshot.py").is_file() and ROOT != ROOT.parent:
     ROOT = ROOT.parent
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import settings
+
 BASE = re.compile(r"(?:^|[./])(dx_op_[a-z0-9_]+?)\.[a-z]{1,4}\.\d")
 MODERN = ["MODWAR22", "YAMYAMOK", "BLACKOP6", "BLACKOP7", "MODWAR7"]
 
 
 def file_bases():
     paths = [ROOT / "state" / "an" / f"{g}_sound_asset.named" for g in MODERN]
-    paths += list((ROOT / "findings").rglob("sound_asset*.txt"))
+    paths += list(Path(settings.path("findings", "findings")).rglob("sound_asset*.txt"))
     for p in paths:
         for line in p.open(encoding="utf-8", errors="replace"):
             m = BASE.search(line.lower())
