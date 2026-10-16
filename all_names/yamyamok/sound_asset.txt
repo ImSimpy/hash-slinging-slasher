@@ -6,12 +6,16 @@ fe1f0b718577c79,core.fly.case.wpfoly_case_bomb_button_beep1.ln.75.48000.all
 19e4c71dcb91ea4f,core.fly.pickup.weap_pickup_medium.ln.75.48000.all
 5c77a41cc9c2524d,core.fly.pickup.weap_pickup_small.ln.75.48000.all
 1df0c202a12722a3,core.fly.pickup.weap_pickup_xlarge.ln.75.48000.all
+cf4cc67a861a120,core.fly.wfoly_ar_mike4_gl_drop.ln.85.48000.all
+34ce2e92b33eb6b9,core.fly.wfoly_ar_mike4_gl_fromgrenade.ln.85.48000.all
+770d832514951123,core.fly.wfoly_ar_mike4_gl_raise.ln.85.48000.all
 1516b22026da99a7,core.fly.wfoly_ar_mike4_gl_reload_close_01.ln.85.48000.all
 5a1eb3339afcb6f6,core.fly.wfoly_ar_mike4_gl_reload_end.ln.85.48000.all
 7981bca1e17eac22,core.fly.wfoly_ar_mike4_gl_reload_fast_close_01.ln.85.48000.all
 489028978b6cd271,core.fly.wfoly_ar_mike4_gl_reload_fast_end.ln.85.48000.all
 36e5274424f03376,core.fly.wfoly_ar_mike4_gl_reload_fast_open_01.ln.85.48000.all
 354d212c2c1ea181,core.fly.wfoly_ar_mike4_gl_reload_open_01.ln.85.48000.all
+26fe9a172758ee9e,core.fly.wfoly_ar_mike4_gl_togrenade.ln.85.48000.all
 1c12e1183a6dbe5d,core.fly.wfoly_ar_mike4_inspect_01.ln.85.48000.all
 1d6ffadb992c3fb4,core.fly.wfoly_ar_mike4_inspect_02.ln.85.48000.all
 1b51b04d3dbde8a7,core.fly.wfoly_ar_mike4_inspect_03.ln.85.48000.all
@@ -1801,8 +1805,11 @@ db35735cefff3f8,iw9.dst.dst_wood_shack_post_03.lnn.75.48000.all
 7ad712d92552ca00,iw9.dst.iw9_dst_gas_tank_explo_01.lnn.75.48000.all
 707855f0c36ec46f,iw9.dst.iw9_dst_gas_tank_explo_02.lnn.75.48000.all
 498431b47f70defa,iw9.dst.iw9_dst_gas_tank_explo_03.lnn.75.48000.all
+1f2e3884100b59b8,iw9.dst.iw9_dst_gas_tank_explo_debris_01.ln.75.48000.all
 5245719aeccc694,iw9.dst.iw9_dst_gas_tank_explo_debris_01.lnn.75.48000.all
+5c4d3a47de697455,iw9.dst.iw9_dst_gas_tank_explo_debris_02.ln.75.48000.all
 628e65a32ddcfa73,iw9.dst.iw9_dst_gas_tank_explo_debris_02.lnn.75.48000.all
+5982df02049a633a,iw9.dst.iw9_dst_gas_tank_explo_debris_03.ln.75.48000.all
 2db0f11f7b287afe,iw9.dst.iw9_dst_gas_tank_explo_debris_03.lnn.75.48000.all
 45ef4ff398d446b1,iw9.dth.deaths_door_loop_v2.snl.75.48000.all
 4818c522a5fdd7ee,iw9.dth.deaths_door_loop_v2_lsrs.snl.75.48000.all
@@ -1847,6 +1854,12 @@ a0b6e4d32526ea2,iw9.eqp.molotov.iw9_molotov_burn_lp_end_04.lnn.75.48000.all
 6c021b4f66b43897,iw9.exp.amb_emt_end_fireworks_mid_fx_streamer_05.lnn.75.48000.all
 4e8f84fd00eab888,iw9.exp.amb_emt_end_fireworks_mid_fx_streamer_06.lnn.75.48000.all
 49f3d8a2198ea7b5,iw9.exp.amb_emt_end_fireworks_mid_fx_streamer_07.lnn.75.48000.all
+7f79c3db9eb3a980,iw9.exp.concussion.concussion_expl_body_01.lnn.75.48000.all
+751b06f33ccfa3ef,iw9.exp.concussion.concussion_expl_body_02.lnn.75.48000.all
+4e26e2b6f8d1be7a,iw9.exp.concussion.concussion_expl_body_03.lnn.75.48000.all
+79721db0b7d3c943,iw9.exp.concussion.concussion_expl_trans_02.lnn.75.48000.all
+75f06bf6d45498ce,iw9.exp.concussion.concussion_expl_trans_03.lnn.75.48000.all
+3a5645256c930cd,iw9.exp.concussion.concussion_expl_trans_04.lnn.75.48000.all
 1d4e259d618f3bf,iw9.exp.dst_cereal_box_01.ln.75.48000.all
 55bb116f1bfcb8a8,iw9.exp.dst_cereal_box_01.ln.85.48000.all
 2307b4a423fe5ee5,iw9.exp.dst_cereal_box_01.lnn.75.48000.all
@@ -27603,6 +27616,8 @@ decfca08207a2ad,iw9.op.zimo.dx_op_zimo_ping_zimo_pvbh_enemyboatmarked_opg2.scn.7
 4c4846ac8fa542fc,iw9.op.zimo.dx_op_zimo_ping_zimo_pvxn_markedatank_opg2.scn.75.48000.english
 38e9dc867349670b,iw9.op.zimo.dx_op_zimo_ping_zimo_pwat_watchingthisarea_ogr2.scn.75.48000.english
 7f39115eb89615db,iw9.op.zimo.dx_op_zimo_ping_zimo_pwat_watchingthisarea_opg2.scn.75.48000.english
+ac243d2d3d895bd,iw9.sp.gunship_compound.dx_sp_gscp_gnht_alej_negative.pn.75.48000.english
+2d1181e936c822ac,iw9.sp.gunship_compound.dx_sp_gscp_gnht_alej_shit.pn.75.48000.english
 433c593fcf636bbe,iw9.sp.gunship_compound.dx_sp_gscp_gnht_ghos_breaching.pn.75.48000.english
 6fcef9f30f800434,iw9.sp.gunship_compound.dx_sp_gscp_gnht_ghos_copymoving.pn.75.48000.english
 7be4b2a799d764f7,iw9.sp.gunship_compound.dx_sp_gscp_gnht_ghos_xraydown.pn.75.48000.english
@@ -27614,6 +27629,7 @@ decfca08207a2ad,iw9.op.zimo.dx_op_zimo_ping_zimo_pvbh_enemyboatmarked_opg2.scn.7
 453c15e2d4bb4db3,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_direct_01.pn.75.48000.english
 a1ea17f71980225,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_donotfireoncivilians.pn.75.48000.english
 634bc4533492a753,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_goodattack.pn.75.48000.english
+cb273a46d4b3bf4,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_goodattacks.pn.75.48000.english
 6944383bdb887864,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_goodhit.pn.75.48000.english
 69a821d05f6e259,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_goodimpact.pn.75.48000.english
 4a75a8e187e5b705,iw9.sp.gunship_compound.dx_sp_gscp_gnht_grav_goodshit.pn.75.48000.english
@@ -27884,6 +27900,8 @@ a5d1a4197a0ee2b,jup.amb.amb_emitters.amb_dubai_emt_window_rattle_03.dnn.75.48000
 10d2b61ab64ce548,jup.amb.amb_emitters.amb_dubai_emt_window_rattle_04.dnn.75.48000.all
 20ac09d43cfe4265,jup.amb.amb_emitters.amb_dubai_emt_window_rattle_05.dnn.75.48000.all
 70e12574187d1322,jup.amb.amb_emitters.amb_dubai_emt_window_rattle_06.dnn.75.48000.all
+7e37491383d3714e,jup.amb.amb_emitters.amb_emt_dubai_security_clearance.lnn.85.48000.all
+57cd35dcf0ca1d6b,jup.amb.amb_emitters.amb_emt_dubai_wind_edge_lp.snl.85.48000.all
 6a06c4a6b9edb869,jup.amb.amb_emitters.amb_emt_electrical_spark_01.ln.85.48000.all
 3566ceb7de897e5,jup.amb.amb_emitters.amb_emt_electrical_spark_01.lnn.85.48000.all
 7fd33ff69e771200,jup.amb.amb_emitters.amb_emt_electrical_spark_02.ln.85.48000.all
@@ -28099,6 +28117,10 @@ eef934fa16fce08,jup.amb.amb_emitters.amb_m1_emt_window_rattle_11.ln.85.48000.all
 b30823a442e634a,jup.amb.amb_emitters.amb_m3_emt_alarm_distant_04.lnn.85.48000.all
 6f30b3f09c4d4fdb,jup.amb.amb_emitters.amb_m3_emt_alarm_distant_05.ln.85.48000.all
 3e741c50e729b09f,jup.amb.amb_emitters.amb_m3_emt_alarm_distant_05.lnn.85.48000.all
+234b6a0ff4b1665a,jup.amb.amb_emitters.amb_m3_emt_pipe_b_lp.lnl.85.48000.all
+67689e6cdc8a2015,jup.amb.amb_emitters.amb_m3_emt_pipe_c_lp.lnl.85.48000.all
+69c48a334ee91e14,jup.amb.amb_emitters.amb_m3_emt_pipe_d_lp.lnl.85.48000.all
+78a5612701701667,jup.amb.amb_emitters.amb_m3_emt_pipe_e_lp.lnl.85.48000.all
 164661c5024b44d0,jup.amb.amb_emitters.amb_m3_emt_pump_movement_distant_01.lnn.85.48000.all
 49656c81245641df,jup.amb.amb_emitters.amb_m3_emt_pump_movement_distant_02.lnn.85.48000.all
 5bdf6d52cada818a,jup.amb.amb_emitters.amb_m3_emt_pump_movement_distant_03.lnn.85.48000.all
@@ -28201,6 +28223,8 @@ ad7da2f99729100,jup.amb.amb_emitters.amb_terminal_alt_emt_fungus_creak_large_13.
 5c55ff92b3bcfb1a,jup.amb.amb_emitters.amb_terminal_alt_emt_fungus_drips_09.snn.85.48000.all
 fa1da9526fc25d7,jup.amb.amb_emitters.amb_terminal_alt_emt_fungus_drips_10.lnn.85.48000.all
 6b283138e616e608,jup.amb.amb_emitters.amb_terminal_alt_emt_fungus_drips_10.snn.85.48000.all
+6937f8150fd07f2,jup.amb.amb_emitters.amb_terminal_alt_emt_monitor_static_a_lp.lnl.85.48000.all
+48e1d3a944ce5bb,jup.amb.amb_emitters.amb_terminal_alt_emt_monitor_static_b_lp.lnl.85.48000.all
 562876e7d35c32d5,jup.amb.amb_emitters.amb_urca_mp_emt_birds_01.lnn.85.48000.all
 11d53644eafbd302,jup.amb.amb_emitters.amb_urca_mp_emt_birds_02.lnn.85.48000.all
 56b24ce197e295b7,jup.amb.amb_emitters.amb_urca_mp_emt_birds_03.lnn.85.48000.all
@@ -28228,6 +28252,7 @@ fa1da9526fc25d7,jup.amb.amb_emitters.amb_terminal_alt_emt_fungus_drips_10.lnn.85
 7b3c2b5ad45bfeb5,jup.amb.amb_emitters.amb_urca_mp_emt_gondola_03.lnn.85.48000.all
 1b9c6caf2982ce0e,jup.amb.amb_emitters.amb_urca_mp_emt_gondola_04.lnn.85.48000.all
 4752c13ca4d57923,jup.amb.amb_emitters.amb_urca_mp_emt_gondola_05.lnn.85.48000.all
+2f01a5babf4d0267,jup.amb.amb_emitters.amb_urca_mp_emt_hotdog_lp.lnl.85.48000.all
 12baac8a17dafb4c,jup.amb.amb_emitters.amb_urca_mp_emt_metal_groan_01.lnn.85.48000.all
 2a7d4f51a61322b,jup.amb.amb_emitters.amb_urca_mp_emt_metal_groan_02.lnn.85.48000.all
 73b399804d66f4d6,jup.amb.amb_emitters.amb_urca_mp_emt_metal_groan_03.lnn.85.48000.all
@@ -28325,6 +28350,8 @@ add703f67e7b479,jup.amb.amb_emitters.animal.amb_emt_int_cat_meow_11.lnn.85.48000
 2ab0c917ae6604ea,jup.amb.amb_emitters.animal.amb_jup_anml_frog_vox_06.lnn.85.48000.all
 66972aee471f633f,jup.amb.amb_emitters.animal.amb_jup_anml_frog_vox_07.lnn.85.48000.all
 389cc62e2c9e36b4,jup.amb.amb_emitters.animal.amb_jup_anml_frog_vox_08.lnn.85.48000.all
+7fc62c5838f5c2dc,jup.amb.amb_emitters.animal.amb_jup_anml_pigeon_fly_away.ln.85.48000.all
+a9d84fcff3766ce,jup.amb.amb_emitters.animal.amb_jup_anml_pigeon_fly_away.lnn.85.48000.all
 cec9d6c4e06cb30,jup.amb.amb_emitters.animal.amb_jup_anml_pigeon_scared.ln.85.48000.all
 400975be7c20c62,jup.amb.amb_emitters.animal.amb_jup_anml_pigeon_scared.lnn.85.48000.all
 3504f2151fd38184,jup.amb.amb_emitters.animal.amb_jup_anml_rat_run_01.ln.85.48000.all
@@ -28371,6 +28398,12 @@ ce1cc00b3e1bd0c,jup.amb.amb_emitters.animal.amb_jup_anml_rat_run_09.ln.85.48000.
 6ef8c23c691c2dc0,jup.amb.amb_emitters.animal.amb_jup_anml_rat_vox_10.lnn.85.48000.all
 7a10bef19d1319d1,jup.amb.amb_emitters.animal.amb_jup_anml_rat_vox_11.ln.85.48000.all
 28d2a1cc00f68d0d,jup.amb.amb_emitters.animal.amb_jup_anml_rat_vox_11.lnn.85.48000.all
+1a77064fdb5210f5,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_fly_away.ln.85.48000.all
+5a7b3e7f3afe7821,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_fly_away.lnn.85.48000.all
+37bbe90567a8255c,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_fly_in.ln.85.48000.all
+538f9f435854c64e,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_fly_in.lnn.85.48000.all
+2fb54b1ebdc685a1,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_scared.ln.85.48000.all
+482564bc3470137d,jup.amb.amb_emitters.animal.amb_jup_anml_seagull_scared.lnn.85.48000.all
 6aa1a22f92a09d75,jup.amb.amb_emitters.animal.amb_m1_emt_animals_distant_01.lnn.85.48000.all
 4d3a53bebe3443a2,jup.amb.amb_emitters.animal.amb_m1_emt_animals_distant_02.lnn.85.48000.all
 3fcd3a31ba5c4a24,jup.amb.amb_emitters.animal.amb_m1_emt_animals_distant_04.lnn.85.48000.all
@@ -28426,6 +28459,7 @@ d943f427b67a895,jup.amb.amb_emitters.animal.amb_m3_emt_birds_distant_02.lnn.85.4
 31e5b924190b5fd8,jup.amb.amb_emitters.animal.amb_m3_emt_flies_buzz_a_06.lnn.85.48000.all
 35cae58f2ad77fe5,jup.amb.amb_emitters.animal.amb_m3_emt_flies_buzz_a_07.lnn.85.48000.all
 4afcadbe147680b6,jup.amb.amb_emitters.animal.amb_m3_emt_flies_buzz_a_08.lnn.85.48000.all
+5119a34ee8e61375,jup.amb.amb_emitters.animal.amb_m3_emt_flies_buzz_b_lp.lnl.85.48000.all
 43c6f9c89edbbff0,jup.amb.amb_emitters.animal.amb_m5_emt_birds_distant_01.lnn.85.48000.all
 7bdcb84209cf50ff,jup.amb.amb_emitters.animal.amb_m5_emt_birds_distant_02.lnn.85.48000.all
 14ff8e53711bddaa,jup.amb.amb_emitters.animal.amb_m5_emt_birds_distant_03.lnn.85.48000.all
@@ -28491,6 +28525,7 @@ bc2636f6f33fe00,jup.amb.amb_emitters.foliage.emt_foliage_leaf_blow_05.lnn.85.480
 2bdbde1f24784edb,jup.amb.amb_emitters.jup_skydiving_pds_charge_glow_06.lnn.85.48000.all
 543bd0b0eab94546,jup.amb.amb_emitters.jup_skydiving_pds_charge_glow_07.lnn.85.48000.all
 8e4fa008191b575,jup.amb.amb_emitters.jup_skydiving_pds_charge_glow_08.lnn.85.48000.all
+7ec340ca50b9b52a,jup.amb.amb_emitters.jup_skydiving_pds_open.lnn.85.48000.all
 4bf28f11749d6b3a,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_drop_01.lnn.85.48000.all
 28b39b09bfe3614d,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_drop_02.lnn.85.48000.all
 48f9b8828f6e0c00,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_drop_03.lnn.85.48000.all
@@ -28527,6 +28562,7 @@ bc2636f6f33fe00,jup.amb.amb_emitters.foliage.emt_foliage_leaf_blow_05.lnn.85.480
 412d5aa92c1587e3,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_groan_int_08.lnn.85.48000.all
 6b01e5913bbc5281,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_groan_int_09.lnn.75.48000.all
 6c330324154823ce,jup.amb.amb_emitters.metal.amb_derail_emt_metal_train_groan_int_09.lnn.85.48000.all
+488e09595cec56d0,jup.amb.amb_emitters.metal.amb_derail_emt_vent_lp.lnl.85.48000.all
 7754138404d1d0c5,jup.amb.amb_emitters.metal.amb_emt_ext_metal_cracks_01.ln.85.48000.all
 1f44ef7281c207d1,jup.amb.amb_emitters.metal.amb_emt_ext_metal_cracks_01.lnn.85.48000.all
 5e9722350b183d7c,jup.amb.amb_emitters.metal.amb_emt_ext_metal_cracks_02.ln.85.48000.all
@@ -28826,6 +28862,7 @@ a87a030786b1069,jup.amb.amb_emitters.metal.amb_emt_metal_movement_distant_09.lnn
 4ace3f09c559f15d,jup.amb.amb_emitters.metal.amb_emt_metal_movement_knocks_05.lnn.85.48000.all
 75589491a8190f98,jup.amb.amb_emitters.metal.amb_emt_metal_movement_knocks_06.ln.85.48000.all
 1729282c91bfedca,jup.amb.amb_emitters.metal.amb_emt_metal_movement_knocks_06.lnn.85.48000.all
+6c42775f8cb5c7bd,jup.amb.amb_emitters.metal.amb_emt_metal_pipe_small_lp.lnl.85.48000.all
 175cd6342f29775a,jup.amb.amb_emitters.metal.amb_emt_metal_vehicle_rattles_01.lnn.85.48000.all
 67855843fc89c26d,jup.amb.amb_emitters.metal.amb_emt_metal_vehicle_rattles_02.lnn.85.48000.all
 21df316937cf1220,jup.amb.amb_emitters.metal.amb_emt_metal_vehicle_rattles_03.lnn.85.48000.all
@@ -28848,6 +28885,7 @@ e6477a9a2229dbc,jup.amb.amb_emitters.metal.amb_emt_metal_vehicle_rattles_07.lnn.
 326c77707e8e5e9d,jup.amb.amb_emitters.metal.amb_emt_oil_barrel_03.lnn.85.48000.all
 70bf15ff2a9f2264,jup.amb.amb_emitters.metal.amb_emt_oil_barrel_04.ln.85.48000.all
 7e226bec0ea73c36,jup.amb.amb_emitters.metal.amb_emt_oil_barrel_04.lnn.85.48000.all
+6e8b6d64c2b3554,jup.amb.amb_emitters.metal.amb_emt_slow_industrial_fan_lp.ll.85.48000.all
 7aaf02f30f4333d3,jup.amb.amb_emitters.metal.amb_env_int_metal_rattle_verb_01.ln.85.48000.all
 5097030866fb237,jup.amb.amb_emitters.metal.amb_env_int_metal_rattle_verb_01.lnn.85.48000.all
 3932b58967f89bce,jup.amb.amb_emitters.metal.amb_env_int_metal_rattle_verb_02.ln.85.48000.all
@@ -29125,6 +29163,7 @@ bcb24d0181314a7,jup.amb.amb_emitters.metal.amb_m3_emt_metal_shelf_movement_07.ln
 34cf716a52ea430,jup.amb.amb_emitters.metal.amb_m8_emt_antenna_08.lnn.85.48000.all
 37aa96e389e7317d,jup.amb.amb_emitters.metal.amb_m8_emt_antenna_09.lnn.85.48000.all
 d59a538040a9ad7,jup.amb.amb_emitters.metal.amb_m8_emt_antenna_10.lnn.85.48000.all
+71e21bdd1c0283ae,jup.amb.amb_emitters.metal.amb_m8_emt_antenna_lp.lnl.85.48000.all
 5147771a6fc0bdd6,jup.amb.amb_emitters.metal.amb_m8_emt_bouy_bell_close_01.lnn.85.48000.all
 6af5ec7fc9b76f9,jup.amb.amb_emitters.metal.amb_m8_emt_bouy_bell_close_02.lnn.85.48000.all
 704e8a243a34c44c,jup.amb.amb_emitters.metal.amb_m8_emt_bouy_bell_close_03.lnn.85.48000.all
@@ -29191,6 +29230,17 @@ f2413e3ee9cff72,jup.amb.amb_emitters.metal.amb_m8_emt_cable_creaks_06.lnn.85.480
 757f2d0a96ff0d27,jup.amb.amb_emitters.metal.amb_m8_emt_cable_creaks_07.lnn.85.48000.all
 5c31ca7bd3924952,jup.amb.amb_emitters.metal.amb_m8_emt_cable_creaks_08.ln.85.48000.all
 5028d2a90a559f0c,jup.amb.amb_emitters.metal.amb_m8_emt_cable_creaks_08.lnn.85.48000.all
+63060b58bb0caf61,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_a_lp.lnl.85.48000.all
+249328f032ab2bac,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_b_lp.lnl.85.48000.all
+7f5ca37f05b9e53f,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_c_lp.lnl.85.48000.all
+2516624445d92a99,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_e_lp.ll.85.48000.all
+761408b22c82e46d,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_e_lp.lnl.85.48000.all
+437adbb5fb23051a,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_f_lp.ll.85.48000.all
+2aed400638110e58,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_f_lp.lnl.85.48000.all
+5a72c20ce90e429b,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_g_lp.lnl.85.48000.all
+7d581e57e4f780ee,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_h_lp.lnl.85.48000.all
+73fffae31a698024,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_j_lp.lnl.85.48000.all
+5625341429b34565,jup.amb.amb_emitters.metal.amb_m8_emt_pipe_m_lp.lnl.85.48000.all
 4668da4fe87a02d3,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_01.lnn.85.48000.all
 fb580e6ab0d6414,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_02.lnn.85.48000.all
 398f81ce2aa3c1a1,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_03.lnn.85.48000.all
@@ -29200,6 +29250,7 @@ eb618499d77607,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_05.l
 707e3d773bf71d25,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_07.lnn.85.48000.all
 5af05a625946af6,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_08.lnn.85.48000.all
 2aaa9397c0cad74b,jup.amb.amb_emitters.metal.amb_paris_emt_metal_gate_movement_09.lnn.85.48000.all
+639f0e0067d5fbd3,jup.amb.amb_emitters.metal.amb_shipment_alt_toon_emt_cable_knock_lp.snl.75.48000.all
 6578371864f31993,jup.amb.amb_emitters.metal.amb_shipment_alt_toon_emt_crane_creak_lp_01.snl.75.48000.all
 51e3d3b5a2a51654,jup.amb.amb_emitters.metal.amb_shipment_alt_toon_emt_crane_creak_lp_02.snl.75.48000.all
 f6db573f82585d6,jup.amb.amb_emitters.metal.emt_metal_fall_impact_01.lnn.75.48000.all
@@ -29398,6 +29449,8 @@ c4e93ba45273e0a,jup.amb.amb_quads.amb_scrapyard_mp_warehouse_a_lsrs.snl.85.48000
 2f265f2364338788,jup.amb.amb_quads.amb_slaughterhouse_mp_interior_open_lsrs.snl.85.48000.all
 5e2c64c67b95724f,jup.amb.amb_quads.amb_slaughterhouse_mp_interior_small_lr.snl.85.48000.all
 7a9afb6fba662d2f,jup.amb.amb_quads.amb_slaughterhouse_mp_interior_small_lsrs.snl.85.48000.all
+93c76bcc4dfd2e7,jup.amb.amb_quads.amb_stashhouse_mp_ext_front_yard_lr.snl.85.48000.all
+710fa94c045b4fc7,jup.amb.amb_quads.amb_stashhouse_mp_ext_front_yard_lsrs.snl.85.48000.all
 6de9b74d91bb1e3a,jup.amb.amb_quads.amb_stashhouse_mp_ext_side_enclosed_lr.snl.85.48000.all
 77cf9d59e51d86f6,jup.amb.amb_quads.amb_stashhouse_mp_ext_side_enclosed_lsrs.snl.85.48000.all
 9ecc6765e265274,jup.amb.amb_quads.amb_stashhouse_mp_int_chimney_lr.snl.85.48000.all
@@ -29454,6 +29507,8 @@ db7f3fe6051a200,jup.amb.amb_quads.amb_subbase_mp_interior_warehouse_b_lsrs.snl.8
 410c4e30df372b23,jup.amb.amb_quads.amb_underpass_mp_interior_garage_lsrs.snl.85.48000.all
 44783d9ffde077ee,jup.amb.amb_quads.amb_underpass_mp_interior_office_lr.snl.85.48000.all
 10e2b8ead90d478a,jup.amb.amb_quads.amb_underpass_mp_interior_office_lsrs.snl.85.48000.all
+ab72a2fe3270f7d,jup.amb.amb_quads.amb_underpass_mp_interior_open_rain_lr.snl.85.48000.all
+481f8174bba7035d,jup.amb.amb_quads.amb_underpass_mp_interior_open_rain_lsrs.snl.85.48000.all
 25423458228bf9f5,jup.amb.amb_quads.amb_underpass_mp_interior_warehouse_large_lr.snl.85.48000.all
 11060293e79529f5,jup.amb.amb_quads.amb_underpass_mp_interior_warehouse_large_lsrs.snl.85.48000.all
 7d0b99e177abd341,jup.amb.amb_quads.amb_underpass_mp_interior_warehouse_medium_lr.snl.85.48000.all
@@ -29736,6 +29791,8 @@ ad4c00c85d11ddb,jup.dst.dst_toolbox_01.lnn.85.48000.all
 4c8e10747748a2e,jup.dst.wood.dst_wood_crate_large_07.lnn.85.48000.all
 797c0f57c8ac4c91,jup.dst.wood.dst_wood_crate_large_08.ln.85.48000.all
 38c413558c6558cd,jup.dst.wood.dst_wood_crate_large_08.lnn.85.48000.all
+72735cd086bf0b37,jup.dst.wood.dst_wood_crate_small_02.ln.85.48000.all
+d7b1a6e8a061beb,jup.dst.wood.dst_wood_crate_small_02.lnn.85.48000.all
 6f261ff815b01644,jup.eqp.cable_ascenders.jup_eqp_cable_ascenders_attach_01.ln.85.48000.all
 42a4f5a1b668f7ed,jup.eqp.cable_ascenders.jup_eqp_cable_ascenders_attach_02.ln.85.48000.all
 2ef5230b100656d2,jup.eqp.cable_ascenders.jup_eqp_cable_ascenders_attach_03.ln.85.48000.all
@@ -29865,10 +29922,15 @@ bf2c66ccb5219a,jup.fly.executions.fuel.jup_exec_fuel_fire_01.lnn.85.48000.all
 738f20ca9b7c02f0,jup.fly.executions.longsword.jup_exec_longsword_prone_sword_01.lnn.85.48000.all
 638a6050b0465714,jup.fly.executions.longsword.jup_exec_longsword_stand_sheeth_01.lnn.85.48000.all
 143beb3fe5c89b86,jup.fly.executions.longsword.jup_exec_longsword_stand_sword_01.lnn.85.48000.all
+4c0f3f0a57de1285,jup.fly.executions.mint.jup_exec_mint_lstand_crows.lnn.85.48000.all
 7f6452d89537fbe6,jup.fly.executions.mint.jup_exec_mint_lstand_foley_01.lnn.85.48000.all
 5bc5aa4165ce7f49,jup.fly.executions.mint.jup_exec_mint_lstand_foley_02.lnn.85.48000.all
+48d4462ab9c7f65b,jup.fly.executions.mint.jup_exec_mint_prone_crows.lnn.85.48000.all
 6911b0da6555c398,jup.fly.executions.mint.jup_exec_mint_prone_foley_01.lnn.85.48000.all
 73089696c8609087,jup.fly.executions.mint.jup_exec_mint_prone_foley_02.lnn.85.48000.all
+45de8a58d6358b9,jup.fly.executions.mint.jup_exec_mint_stand_crows.lnn.85.48000.all
+26ae7b6c0e108330,jup.fly.executions.mint.jup_exec_mint_stand_foley_a.lnn.85.48000.all
+527e973c817aa93f,jup.fly.executions.mint.jup_exec_mint_stand_foley_b.lnn.85.48000.all
 3c32ada5819a14f4,jup.fly.executions.mochi.jup_exec_mochi_lstand.lnn.85.48000.all
 5b2334552dbab45d,jup.fly.executions.mochi.jup_exec_mochi_lstand_02.lnn.85.48000.all
 7ce0e1c7c7977810,jup.fly.executions.mochi.jup_exec_mochi_lstand_03.lnn.85.48000.all
@@ -29895,6 +29957,10 @@ f2fc423023105f2,jup.fly.executions.mochi.jup_exec_mochi_prone.lnn.85.48000.all
 460a354e5c26b548,jup.fly.executions.plum.jup_exec_plum_victim_lstand_bod_imp_01.lnn.85.48000.all
 3438ae73aef6c0e8,jup.fly.executions.sg.jup_exec_sg_lstand_hit_01.lnn.85.48000.all
 31f882ecf6aedad7,jup.fly.executions.sg.jup_exec_sg_lstand_hit_02.lnn.85.48000.all
+69f551b6344498a9,jup.fly.executions.sg.jup_exec_sg_lstand_victim_fall.lnn.85.48000.all
+4f1cab21c40a67bf,jup.fly.executions.sg.jup_exec_sg_prone_kick.lnn.85.48000.all
+1fad850f1afeba7f,jup.fly.executions.sg.jup_exec_sg_prone_victim_bodyfall.lnn.85.48000.all
+7a958bba851fefd1,jup.fly.executions.sg.jup_exec_sg_stand_victim_bodyfall.lnn.85.48000.all
 456b5dd8276472b1,jup.fly.executions.smg.jup_exec_smg_last_fire_01.lnn.85.48000.all
 87a1e5cc935cbce,jup.fly.executions.smg.jup_exec_smg_last_fire_02.lnn.85.48000.all
 7ee74ffd2bdaf9f7,jup.fly.executions.smg.jup_exec_smg_last_kick_01.lnn.85.48000.all
@@ -29903,6 +29969,7 @@ f2fc423023105f2,jup.fly.executions.mochi.jup_exec_mochi_prone.lnn.85.48000.all
 48a2cd66f129993e,jup.fly.executions.smg.jup_exec_smg_prone_foley_01.lnn.85.48000.all
 60aabc8cd9c37b61,jup.fly.executions.smg.jup_exec_smg_prone_foley_02.lnn.85.48000.all
 5098500a1dba88fd,jup.fly.executions.smg.jup_exec_smg_stand_body_01.lnn.85.48000.all
+6cdc69455216aca8,jup.fly.executions.smg.jup_exec_smg_stand_bodyfall_01.lnn.85.48000.all
 6f8bdaafb4c30891,jup.fly.executions.smg.jup_exec_smg_stand_fire_01.lnn.85.48000.all
 797fded5e12a62e,jup.fly.executions.smg.jup_exec_smg_stand_fire_02.lnn.85.48000.all
 364544c88d626d34,jup.fly.executions.smg.jup_exec_smg_stand_foley_01.lnn.85.48000.all
@@ -30030,12 +30097,16 @@ a2cb299667315dd,jup.phy.phy_cardboard_box_04.lnn.85.48000.all
 1b0e3682f0ea9038,jup.phy.phy_wood_framed_object_08.lnn.85.48000.all
 385a7354ce811549,jup.phy.phy_wood_framed_object_09.ln.85.48000.all
 7472f56af5e7a2c5,jup.phy.phy_wood_framed_object_09.lnn.85.48000.all
+2e1a292910d91b4c,jup.uin.frontend.uin_jup_aar_daily_progress_bars.ln.75.48000.all
+3cf6fa116ac1e258,jup.uin.frontend.uin_jup_aar_daily_progress_bars.lnn.75.48000.all
 15dd805803b04383,jup.uin.frontend.uin_jup_aar_progress_bar.ln.75.48000.all
 2ba4e5efdfb8fdc9,jup.uin.frontend.uin_jup_aar_progress_bar.lnn.75.48000.all
 30b81c00f4c5d78,jup.uin.frontend.uin_jup_aar_progress_bar_start.ln.75.48000.all
 32966bcda66c6354,jup.uin.frontend.uin_jup_aar_progress_bar_start.lnn.75.48000.all
 785410a1e84059e2,jup.uin.frontend.uin_jup_aar_progress_bar_stop.ln.75.48000.all
 23cf9edd17084dc6,jup.uin.frontend.uin_jup_aar_progress_bar_stop.lnn.75.48000.all
+561e61dd181415c4,jup.uin.frontend.uin_jup_aar_rank_up_slam.ln.75.48000.all
+17f578b63441fbf0,jup.uin.frontend.uin_jup_aar_rank_up_slam.lnn.75.48000.all
 86310efd727bd33,jup.uin.frontend.uin_jup_aar_weapon_intro.ln.75.48000.all
 17fe93e4edbabd9,jup.uin.frontend.uin_jup_aar_weapon_intro.lnn.75.48000.all
 14bfba285a563858,jup.uin.frontend.uin_jup_aar_weapon_progress_bar_01.ln.75.48000.all
@@ -30816,10 +30887,20 @@ d682e527d17715c,mp.jugg_mus.mus_so_jugg_02_hp.snl.75.48000.all
 286f487e61598516,mp.mode.wm.jup_mode_wm_gas_leak_01.lnn.85.48000.all
 93d681dc11c5b39,mp.mode.wm.jup_mode_wm_gas_leak_02.lnn.85.48000.all
 1c2196719a32148c,mp.mode.wm.jup_mode_wm_gas_leak_03.lnn.85.48000.all
+7e0f65890cc41f83,mp.mode.wm.jup_mode_wm_tank_repair_complete.lnn.100.48000.all
+2add91a2704e3e89,mp.mode.wm.jup_skydiving_cafe_hoverjet_destruction.lnn.85.48000.all
 769de050ac05a2d6,mp.mode.wm.jup_skydiving_hack_end.lnn.85.48000.all
 59165d312f8d52ed,mp.mode.wm.jup_skydiving_hack_lp.lnl.85.48000.all
+19ec38810875ab79,mp.mode.wm.jup_skydiving_platform_crane_rattle.lnn.85.48000.all
+55ac719b618ed743,mp.mode.wm.jup_skydiving_platform_crane_stress.lnn.85.48000.all
 7debec1ef1fa2cb4,mp.mode.wm.jup_skydiving_platform_crash_end.lnn.85.48000.all
 2252ee94c4e8d203,mp.mode.wm.jup_skydiving_platform_crash_start.lnn.85.48000.all
+663f6d2291c0d773,mp.mode.wm.jup_skydiving_platform_crash_whoosh.lnn.85.48000.all
+4c2f13e269cf458b,mp.mode.wm.jup_skydiving_platform_rope_snap.lnn.75.48000.all
+d6341e4ba7c833a,mp.mode.wm.jup_skydiving_zone01_door_alarm_fl.lnn.85.48000.all
+1433caced48fac54,mp.mode.wm.jup_skydiving_zone01_door_alarm_fr.lnn.85.48000.all
+782cdb256e794ec6,mp.mode.wm.jup_skydiving_zone01_door_alarm_rl.lnn.85.48000.all
+6c6b340e35370c78,mp.mode.wm.jup_skydiving_zone01_door_alarm_rr.lnn.85.48000.all
 51116362c4ff1ae3,mp.personal_redeploy_drone.iw9_personal_redeploy_drone_activate_long.lnn.75.48000.all
 b8f396dfd442121,mp.recon_drone.iw8_recondrone_scan_lp_plr.snl.75.48000.all
 4ef6fe5d67b0c07b,mp.recon_drone.iw9_recon_drone_eng_fly_lp.snl.75.48000.all
@@ -31961,6 +32042,8 @@ f12f33e03e9ee5f,s6.cp.cp_jup_chemical.dx_cp_chem_epne_lasw_findanentrypointtoth.
 d924f4f593182e1,s6.cp.cp_jup_chemical.dx_cp_chem_erpo_pric_couldusethistoouradv.pn.75.48000.english
 729b2779baa3fe3,s6.cp.cp_jup_chemical.dx_cp_chem_erpo_pric_lockedmeanstheressom.pn.75.48000.english
 5206aed582f6bd8e,s6.cp.cp_jup_chemical.dx_cp_chem_erpo_pric_makingentry.pn.75.48000.english
+6c1b1b189fab6931,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_gazz_breath.pn.75.48000.english
+6d5cad5e26a91f15,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_gazz_cap.pn.75.48000.english
 45aba3ea8476c4cc,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_ghos_affirmative.pn.75.48000.english
 1a299016a9e23b80,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_pric_always.pn.75.48000.english
 2f9942c9ef714bb5,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_pric_cough.pn.75.48000.english
@@ -31977,6 +32060,7 @@ d924f4f593182e1,s6.cp.cp_jup_chemical.dx_cp_chem_erpo_pric_couldusethistoouradv.
 aac605c783b59f0,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_soap_ooff.pn.75.48000.english
 1d942f730d8bacab,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_soap_sarin.pn.75.48000.english
 3a389cff32714ab7,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_soap_staywithussir.pn.75.48000.english
+50fff3bd23a31703,s6.cp.cp_jup_chemical.dx_cp_chem_exfi_soap_staywithussir_01.pn.75.48000.english
 7c70f4ad7518b471,s6.cp.cp_jup_chemical.dx_cp_chem_fhck_ghos_konnismaneuveringnea.pn.75.48000.english
 67a6caf20a01463e,s6.cp.cp_jup_chemical.dx_cp_chem_fhck_ghos_moretargetsnearthath.pn.75.48000.english
 27e7e5c8b61367af,s6.cp.cp_jup_chemical.dx_cp_chem_fhck_pric_droppedone.pn.75.48000.english
@@ -32238,6 +32322,7 @@ ec3c1cfa97753b4,s6.cp.cp_jup_chemical.dx_cp_chem_idbr_ghos_checkhighkonnisonroo.
 2de901ca09fbcd6e,s6.cp.cp_jup_chemical.dx_cp_chem_infa_lasw_rememberyourparachut.pn.75.48000.english
 68dce34206fb16ee,s6.cp.cp_jup_chemical.dx_cp_chem_infl_gazz_check.pn.75.48000.english
 6988fd62054b63cf,s6.cp.cp_jup_chemical.dx_cp_chem_infl_gazz_thatshowwedo.pn.75.48000.english
+69d790feb2a64680,s6.cp.cp_jup_chemical.dx_cp_chem_infl_jump_go.pn.75.48000.english
 75ac2dfceea0b149,s6.cp.cp_jup_chemical.dx_cp_chem_inge_lasw_isrshowsthreekonnihe.pn.75.48000.english
 38b861d19f76304b,s6.cp.cp_jup_chemical.dx_cp_chem_inge_lasw_targetthosehelos06wh.pn.75.48000.english
 220bfcd89197af7,s6.cp.cp_jup_chemical.dx_cp_chem_inna_lasw_getmovingjohnweneedt.pn.75.48000.english
@@ -33187,6 +33272,7 @@ a7c461b98896e74,s6.cp.cp_jup_dam.dx_cp_cdam_awsi_ghos_xraysonthebridge.pn.75.480
 1630bf0e486805c,s6.cp.cp_jup_dam.dx_cp_cdam_awsi_lasw_ghostbeadvisedkonnii.pn.75.48000.english
 18a1a930569762bf,s6.cp.cp_jup_dam.dx_cp_cdam_awsi_lasw_ghostyouvegotkonnion.pn.75.48000.english
 fdc57f9095f124c,s6.cp.cp_jup_dam.dx_cp_cdam_awsi_lasw_gotkonniduginhardatt.pn.75.48000.english
+3c92c531e37037ad,s6.cp.cp_jup_dam.dx_cp_cdam_bdl2_lasw_niceworkbutkonnisget.pn.75.48000.english
 13d551d11e2f99e2,s6.cp.cp_jup_dam.dx_cp_cdam_bdl3_lasw_thatshouldbethelasto.pn.75.48000.english
 45e782105c2cdc30,s6.cp.cp_jup_dam.dx_cp_cdam_bdlr_lasw_gettothelastbombgo.pn.75.48000.english
 6b867f9b5e9eb72b,s6.cp.cp_jup_dam.dx_cp_cdam_bdlr_lasw_onebombisstilloutthe.pn.75.48000.english
@@ -33287,6 +33373,7 @@ bdb42ac4cbf8b45,s6.cp.cp_jup_dam.dx_cp_cdam_dsib_ghos_konnisgroupingnearth.pn.75
 67b1a0c38a4354d9,s6.cp.cp_jup_dam.dx_cp_cdam_dsix_ghos_thatpadsagoodexit.pn.75.48000.english
 7a37403d7ba0159,s6.cp.cp_jup_dam.dx_cp_cdam_dsix_ghos_thatpadwouldmakeagoo.pn.75.48000.english
 4fcc4111469ae4de,s6.cp.cp_jup_dam.dx_cp_cdam_gflr_lasw_copydefusewhenable.pn.75.48000.english
+62d03312d1a1b29e,s6.cp.cp_jup_dam.dx_cp_cdam_indt_lasw_beadvisedmultiplesen.pn.75.48000.english
 567e407c90925e6a,s6.cp.cp_jup_dam.dx_cp_cdam_inna_lasw_07gettothebombsitesa.pn.75.48000.english
 5a7028da0ac33468,s6.cp.cp_jup_dam.dx_cp_cdam_inna_lasw_07moveonthebombsites.pn.75.48000.english
 3655b58baa41b1ef,s6.cp.cp_jup_dam.dx_cp_cdam_inna_lasw_07youhavepotentialta.pn.75.48000.english
@@ -34312,8 +34399,11 @@ b601a2012e375c4,s6.cp.cp_jup_ranch.dx_cp_rnch_alr3_fara_hackingatrap.pn.75.48000
 2b0e743097f52ea4,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_direct.pn.75.48000.english
 1dee676081102cba,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_direct_01.pn.75.48000.english
 1539de031a93f6a9,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodeffect.pn.75.48000.english
+7b8b0bfc429c47ad,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodeffect_01.pn.75.48000.english
 5f30a49e366c501d,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodhit.pn.75.48000.english
+2372ef1ba2064d91,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodhit_01.pn.75.48000.english
 77af14a515fab2a8,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodkill.pn.75.48000.english
+64fb8935518fa16e,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodkill_01.pn.75.48000.english
 5868b35ce232b8c,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_goodshot.pn.75.48000.english
 742d0f2d7185398c,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_noimpact.pn.75.48000.english
 3f3f6161ac396078,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_alex_nojoy.pn.75.48000.english
@@ -34323,6 +34413,7 @@ b601a2012e375c4,s6.cp.cp_jup_ranch.dx_cp_rnch_alr3_fara_hackingatrap.pn.75.48000
 158c6b395b03ee04,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_fara_deployingbombdrone.pn.75.48000.english
 388802e36a38fd98,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_fara_missed.pn.75.48000.english
 1b6310a3bb371a67,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_fara_offtarget.pn.75.48000.english
+73668dd6c0c3c2b3,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_fara_offtarget_01.pn.75.48000.english
 4df328d9a9564735,s6.cp.cp_jup_ranch.dx_cp_rnch_bdrn_fara_sendingoutthebombdro.pn.75.48000.english
 4a1e2197a6cd765b,s6.cp.cp_jup_ranch.dx_cp_rnch_bfnd_alex_gotsomething.pn.75.48000.english
 123f927a9515eda3,s6.cp.cp_jup_ranch.dx_cp_rnch_bfnd_alex_useitagainstemkilo.pn.75.48000.english
@@ -34504,6 +34595,8 @@ b413e71d398059a,s6.cp.cp_jup_ranch.dx_cp_rnch_poid_alex_gotit.pn.75.48000.englis
 5fe0a52bd5dc16bf,s6.cp.cp_jup_ranch.dx_cp_rnch_poid_fara_ranchhouseaheadwellg.pn.75.48000.english
 3f70b7e8f7364d1f,s6.cp.cp_jup_ranch.dx_cp_rnch_poid_fara_thisbuildingsclosest.pn.75.48000.english
 1db1ad8e7fe05f4b,s6.cp.cp_jup_ranch.dx_cp_rnch_poid_fara_thisbuildingsclosest_01.pn.75.48000.english
+795a8cc47d4111b8,s6.cp.cp_jup_ranch.dx_cp_rnch_rb1a_alex_doesntappeartheyresa.pn.75.48000.english
+9f2622622108faa,s6.cp.cp_jup_ranch.dx_cp_rnch_rb2a_alex_flightrecorderwasthe.pn.75.48000.english
 54cecbd687268968,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_alex_lookslikeastagingare.pn.75.48000.english
 237ba8a46652fb14,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_alex_lotofkonniaroundthat.pn.75.48000.english
 7d2ece007b05d658,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_alex_seriousfirepoweranda.pn.75.48000.english
@@ -34512,6 +34605,8 @@ b413e71d398059a,s6.cp.cp_jup_ranch.dx_cp_rnch_poid_alex_gotit.pn.75.48000.englis
 30082122c4e155f3,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_fara_copyilllookaround.pn.75.48000.english
 5e88732f5243f9cc,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_fara_copyillsearchit.pn.75.48000.english
 4a83b28b94c65f11,s6.cp.cp_jup_ranch.dx_cp_rnch_rb3a_fara_searching.pn.75.48000.english
+595db8459c36aa7d,s6.cp.cp_jup_ranch.dx_cp_rnch_rdba_alex_recommendyousearchth.pn.75.48000.english
+52af188d94671489,s6.cp.cp_jup_ranch.dx_cp_rnch_rdca_alex_theyreguardingthatbu.pn.75.48000.english
 6094d6f74a5bd19d,s6.cp.cp_jup_ranch.dx_cp_rnch_rdca_fara_agreed.pn.75.48000.english
 3dd4a4c897da86fd,s6.cp.cp_jup_ranch.dx_cp_rnch_rdca_fara_onit.pn.75.48000.english
 1f5e37ac673c6744,s6.cp.cp_jup_ranch.dx_cp_rnch_rdca_fara_rogerthatecho.pn.75.48000.english
@@ -34639,6 +34734,7 @@ afe35f59c029a0d,s6.cp.cp_jup_ranch.dx_cp_rnch_rni3_alex_agunnowavest.pn.75.48000
 7314ab7df7483ff,s6.cp.cp_jup_ranch.dx_cp_rnch_rni3_fara_iseemysoldiersamarai.pn.75.48000.english
 6aea1d6ccf4b18b6,s6.cp.cp_jup_ranch.dx_cp_rnch_rni3_fara_makarovwantstheworld.pn.75.48000.english
 1bc93c70accd18e0,s6.cp.cp_jup_ranch.dx_cp_rnch_rni3_fara_shelooksafraidshedoe.pn.75.48000.english
+6fefc9fc1ace0429,s6.cp.cp_jup_ranch.dx_cp_rnch_rnia_kon3_wehavecasualtiesrequ.pn.75.48000.english
 39ff8044757483a7,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_findtheblackboxfarah.pn.75.48000.english
 27335ab3e964115c,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_flightdatawillhelpus.pn.75.48000.english
 675f227789bb1d3e,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_flightrecordercouldh.pn.75.48000.english
@@ -34646,6 +34742,8 @@ afe35f59c029a0d,s6.cp.cp_jup_ranch.dx_cp_rnch_rni3_alex_agunnowavest.pn.75.48000
 6ec6aedea98b8c82,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_flightrecordersstill_01.pn.75.48000.english
 5513b118546f4630,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_stillneedtosecuretha.pn.75.48000.english
 1d580436238109de,s6.cp.cp_jup_ranch.dx_cp_rnch_rnim_alex_theflightrecordersst.pn.75.48000.english
+18052f66d1b3a20f,s6.cp.cp_jup_ranch.dx_cp_rnch_rnja_konl_jltvsenrouteholdyour.pn.75.48000.english
+4799201084474a96,s6.cp.cp_jup_ranch.dx_cp_rnch_rnjb_konl_targetspottedengagin.pn.75.48000.english
 5f0fcbd9a6269a54,s6.cp.cp_jup_ranch.dx_cp_rnch_rnk1_alex_morekonnicomingyourw.pn.75.48000.english
 6c8d929c452dcfdf,s6.cp.cp_jup_ranch.dx_cp_rnch_rnk2_alex_farahmoreenemypatrol.pn.75.48000.english
 7284841d23152950,s6.cp.cp_jup_ranch.dx_cp_rnch_rnk3_alex_kiloyougotkonniswarm.pn.75.48000.english
@@ -34718,6 +34816,7 @@ b253587ca132fda,s6.cp.cp_jup_ranch.dx_cp_rnch_rnrb_alex_morekonnireinforceme.pn.
 2dafcf5bd2735d06,s6.cp.cp_jup_ranch.dx_cp_rnch_rnva_fara_engaging.pn.75.48000.english
 747bd6c67953e422,s6.cp.cp_jup_ranch.dx_cp_rnch_rnva_fara_openingfire.pn.75.48000.english
 9941b9efa4455bd,s6.cp.cp_jup_ranch.dx_cp_rnch_rnva_fara_sendingrounds.pn.75.48000.english
+33ee4041ff812399,s6.cp.cp_jup_ranch.dx_cp_rnch_rnwa_alex_multiplesquadsconver.pn.75.48000.english
 6286e639ac3aab62,s6.cp.cp_jup_ranch.dx_cp_rnch_rny2_alex_beyondthefuckinpale.pn.75.48000.english
 581d35126f3166fa,s6.cp.cp_jup_ranch.dx_cp_rnch_rny2_alex_howdotheengineslook.pn.75.48000.english
 b9db10b60a690aa,s6.cp.cp_jup_ranch.dx_cp_rnch_rny2_alex_whatthehellhappenedu.pn.75.48000.english
@@ -34773,14 +34872,18 @@ a12932f6bbc4b1c,s6.cp.cp_jup_ranch.dx_cp_rnch_rnzj_alex_hesgotafriendcareful.pn.
 791b65d7a2d2f352,s6.cp.cp_jup_ranch.dx_cp_rnch_rp1a_fara_nothinghere.pn.75.48000.english
 42deb37b63bffa48,s6.cp.cp_jup_ranch.dx_cp_rnch_rp1a_fara_nothingusefulhere.pn.75.48000.english
 74689dfdbe70f7dc,s6.cp.cp_jup_ranch.dx_cp_rnch_rp1a_fara_placeispickedapart.pn.75.48000.english
+710dc5120808daaa,s6.cp.cp_jup_ranch.dx_cp_rnch_rp2a_alex_theymayhaveclearedit.pn.75.48000.english
 a1b6656a7337d7,s6.cp.cp_jup_ranch.dx_cp_rnch_rp2a_fara_copymoving.pn.75.48000.english
 700982fd1e703efb,s6.cp.cp_jup_ranch.dx_cp_rnch_rp2a_fara_copythatmovingon.pn.75.48000.english
 74834cde89ac9bf,s6.cp.cp_jup_ranch.dx_cp_rnch_rp2a_fara_illmoveon.pn.75.48000.english
 61de262ba6cc2362,s6.cp.cp_jup_ranch.dx_cp_rnch_rp2a_fara_illtrysomewhereelse.pn.75.48000.english
+4bafef051519fa55,s6.cp.cp_jup_ranch.dx_cp_rnch_rp3a_alex_gotkonniactivitynear.pn.75.48000.english
 722f7bf9bec7d334,s6.cp.cp_jup_ranch.dx_cp_rnch_rp3a_fara_copyillcheckit.pn.75.48000.english
 1650d7d8504c91f7,s6.cp.cp_jup_ranch.dx_cp_rnch_rp3a_fara_illlook.pn.75.48000.english
 72e8b5162a794a4d,s6.cp.cp_jup_ranch.dx_cp_rnch_rp3a_fara_illtakealook.pn.75.48000.english
+da39f78a83db2c0,s6.cp.cp_jup_ranch.dx_cp_rnch_rx1a_alex_tracersgotnosignalsi.pn.75.48000.english
 79c4575406da8ffd,s6.cp.cp_jup_ranch.dx_cp_rnch_rx1a_fara_copyilltryanotherare.pn.75.48000.english
+1aabde20d136de64,s6.cp.cp_jup_ranch.dx_cp_rnch_rx3a_alex_howsitlooking.pn.75.48000.english
 4eeb9fd22f9ff09f,s6.cp.cp_jup_ranch.dx_cp_rnch_rx3a_fara_buildingsclean.pn.75.48000.english
 3aa77cea6ef13d34,s6.cp.cp_jup_ranch.dx_cp_rnch_turh_fara_hackedthesentrygun.pn.75.48000.english
 44165b73e9b83065,s6.cp.cp_jup_ranch.dx_cp_rnch_turh_fara_sentrygunhacked.pn.75.48000.english
@@ -35104,6 +35207,7 @@ e9f2ba176d5f8a7,s6.cp.cp_jup_resort.dx_cp_reso_opnt_lasw_pickuphisfobkeysoap.pn.
 58a1a05b2473a26e,s6.cp.cp_jup_resort.dx_cp_reso_opnt_soap_hvisdown.pn.75.48000.english
 7f7b20d5996df275,s6.cp.cp_jup_resort.dx_cp_reso_opnt_soap_targetdown.pn.75.48000.english
 5e1d28c5ca78ea12,s6.cp.cp_jup_resort.dx_cp_reso_otin_lasw_beadvisedakonnireinf.pn.75.48000.english
+3fad467fc527e88,s6.cp.cp_jup_resort.dx_cp_reso_otin_soap_copywatcher.pn.75.48000.english
 478f9851a2553201,s6.cp.cp_jup_resort.dx_cp_reso_pdak_lasw_hesgottwokonniwithhi.pn.75.48000.english
 5fd04076da318784,s6.cp.cp_jup_resort.dx_cp_reso_pdak_soap_copy.pn.75.48000.english
 7abea4f54340a660,s6.cp.cp_jup_resort.dx_cp_reso_pqxx_ghos_clearitandsweepforam.pn.75.48000.english
@@ -48244,6 +48348,7 @@ f595eb6ebbdd5af,s6.sp.sp_jup_flashback.dx_sp_flas_ambc_pric_shutup.pn.75.48000.e
 40263ef3378e6ebd,s6.sp.sp_jup_flashback.dx_sp_flas_ccrs_pric_clearsecurethestairw.pn.75.48000.english
 487b6453858131e8,s6.sp.sp_jup_flashback.dx_sp_flas_ccrs_pric_getoutofthereyoureto.pn.75.48000.english
 11869e6cdee8598e,s6.sp.sp_jup_flashback.dx_sp_flas_ccrs_pric_smokeaheadcareful.pn.75.48000.english
+2334a00fd3f68c,s6.sp.sp_jup_flashback.dx_sp_flas_infe_pric_fuckinhell.pn.75.48000.english
 6e012cfcfe1cb68b,s6.sp.sp_jup_flashback.dx_sp_flas_infg_bmc1_itsthepolice.pn.75.48000.english
 74e6867266ec3965,s6.sp.sp_jup_flashback.dx_sp_flas_infg_pric_cmoncmon.pn.75.48000.english
 7dfba8e62063a7e4,s6.sp.sp_jup_flashback.dx_sp_flas_infg_pric_move.pn.75.48000.english
@@ -48450,6 +48555,7 @@ e9f350ff304dce8,s6.sp.sp_jup_flashback.dx_sp_flas_mks3_pric_solidcopyweremoving.
 56c16a949df2ec42,s6.sp.sp_jup_flashback.dx_sp_flas_pena_pric_specialforces.pn.75.48000.english
 4063e473c8cd028,s6.sp.sp_jup_flashback.dx_sp_flas_pena_pric_standfastsergeant.pn.75.48000.english
 63a6b7162a89dc40,s6.sp.sp_jup_flashback.dx_sp_flas_pena_pric_whoareyouwith.pn.75.48000.english
+404945f004072f46,s6.sp.sp_jup_flashback.dx_sp_flas_pena_pric_whoareyouwith_01.pn.75.48000.english
 1d4f88a99972e5df,s6.sp.sp_jup_flashback.dx_sp_flas_pena_soap_fuckerswereinnercirc.pn.75.48000.english
 a965cfb30a7794e,s6.sp.sp_jup_flashback.dx_sp_flas_pena_soap_handsshowyourhands.pn.75.48000.english
 27fb11a3106588cf,s6.sp.sp_jup_flashback.dx_sp_flas_pena_soap_justtheplate.pn.75.48000.english
@@ -48837,6 +48943,7 @@ a69e7ffd87a47cf,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh1_ssig_targetsintheopen.pn.75
 22108b42f1638826,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_fara_copygroundteamishold.pn.75.48000.english
 4b1a90a5079f1c6b,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_fara_copygroundteamispush.pn.75.48000.english
 13b378e24ea58c60,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_fara_weneedtomove.pn.75.48000.english
+601c1f1f8d9b1078,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_gazz_cap.pn.75.48000.english
 60f988a1156455ed,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_grav_afirm.pn.75.48000.english
 37a0fe24b6e38b9f,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_grav_donotfireonthehangar.pn.75.48000.english
 3516e8c3b104642c,s6.sp.sp_jup_gunship.dx_sp_jsgs_psh2_grav_donothitthehangars.pn.75.48000.english
@@ -48946,6 +49053,13 @@ cdc6398e0a3d1f1,s6.sp.sp_jup_gunship.dx_sp_jsgs_veha_grav_rogerthatshadowswatc.p
 4191f820f0ddf67c,s6.sp.sp_jup_hijack.dx_sp_hjck_intr_fefl_shesgotagun.pn.75.48000.english
 298275f4a26c2a8e,s6.sp.sp_jup_hijack.dx_sp_hjck_intr_sama_nononopleasethereare.pn.75.48000.english
 5a76e42959b55590,s6.sp.sp_jup_hijack.dx_sp_hjck_intr_sama_thankyou.pn.75.48000.english
+7e3e006050fe0b6a,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc2_abomb.pn.75.48000.english
+724075731d539426,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc2_keepherawayfromtheph.pn.75.48000.english
+202501ad624839f7,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc3_shesgoingtokillusall.pn.75.48000.english
+29efe0357024b693,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc3_shestryingtosetthebo.pn.75.48000.english
+3f3b8ae96b106a41,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc4_grabherarms.pn.75.48000.english
+83f06e81a606ee9,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc4_wehavetodosomething.pn.75.48000.english
+6c83f118446c6c03,s6.sp.sp_jup_hijack.dx_sp_hjck_para_rpc5_stopher.pn.75.48000.english
 5a4727bc32ddc9fb,s6.sp.sp_jup_hijack.dx_sp_hjck_para_sama_helpmegivemethecellp.pn.75.48000.english
 633255b203c2a0a3,s6.sp.sp_jup_hijack.dx_sp_hjck_para_sama_hurrygiveittomegivem.pn.75.48000.english
 610ccde3d091e2d3,s6.sp.sp_jup_hijack.dx_sp_hjck_para_sama_no.pn.75.48000.english
@@ -49422,6 +49536,8 @@ bbfee430d79f6b4,s6.sp.sp_jup_silo.dx_sp_jslo_cntr_fara_negativeillneedtoacc.pn.7
 1614acef3bdcc3b6,s6.sp.sp_jup_silo.dx_sp_jslo_defs_kon3_theyreinthemissilero.pn.75.48000.english
 163dd39b0840fb7,s6.sp.sp_jup_silo.dx_sp_jslo_defs_kon4_andthatswheretheydie.pn.75.48000.english
 30a9dec17a8ccc3a,s6.sp.sp_jup_silo.dx_sp_jslo_defs_kon4_protectthelaunch.pn.75.48000.english
+3aec974b4a408c14,s6.sp.sp_jup_silo.dx_sp_jslo_defs_pric_ready.pn.75.48000.english
+4e2df74771f22d6f,s6.sp.sp_jup_silo.dx_sp_jslo_defs_pric_what.pn.75.48000.english
 7d3a8a18e306cc40,s6.sp.sp_jup_silo.dx_sp_jslo_indr_fara_dronesnotgoinganywhe.pn.75.48000.english
 3990d04ae26e75bb,s6.sp.sp_jup_silo.dx_sp_jslo_indr_fara_findthecaptainthereg.pn.75.48000.english
 150f2e24d6b4e69c,s6.sp.sp_jup_silo.dx_sp_jslo_indr_fara_iseeanentrypointmark.pn.75.48000.english
@@ -49618,6 +49734,7 @@ d6753f137c70a6b,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_fifteenseconds.pn.75.4800
 1781335be5dfd941,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_getonthecontrolsands.pn.75.48000.english
 3af672915fc52d3,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_gettothecontroltower.pn.75.48000.english
 600698ad82397ce5,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_hurry.pn.75.48000.english
+521d82a503f37b59,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_hurry_01.pn.75.48000.english
 71bda1560c497b1d,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_icantholditanylonger.pn.75.48000.english
 1eb4063307474a82,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_illholdthelaunchaslo.pn.75.48000.english
 50c50b706164d676,s6.sp.sp_jup_silo.dx_sp_jslo_roof_fara_itslaunching.pn.75.48000.english
@@ -50784,6 +50901,8 @@ f975fe360c702c0,s6.sp.sp_jup_vip.dx_sp_jvip_coex_chr2_rogerstandingby.pn.75.4800
 33815f8c69e2564e,s6.sp.sp_jup_vip.dx_sp_jvip_coex_rap1_raptortogroundtarget.pn.75.48000.english
 4b748e945936e7da,s6.sp.sp_jup_vip.dx_sp_jvip_coex_rap1_rogerthatraptorsinbo.pn.75.48000.english
 2446101f76ddae34,s6.sp.sp_jup_vip.dx_sp_jvip_coex_rap1_shotsoutshotsoutfox2.pn.75.48000.english
+1b61c50cf3574e96,s6.sp.sp_jup_vip.dx_sp_jvip_coga_vipg_intrudersinthearmory.pn.75.48000.english
+498fb618d412dbeb,s6.sp.sp_jup_vip.dx_sp_jvip_cogl_vipg_intrudersinthelocker.pn.75.48000.english
 404f36dd976f8368,s6.sp.sp_jup_vip.dx_sp_jvip_cohn_ivan_ignorethehelogettoth.pn.75.48000.english
 37d1f746489febbe,s6.sp.sp_jup_vip.dx_sp_jvip_cohn_ivan_leavetheheloandgetto.pn.75.48000.english
 5870f9bad95313c,s6.sp.sp_jup_vip.dx_sp_jvip_cohn_ivan_wehavetogettothetunn.pn.75.48000.english
@@ -50921,6 +51040,8 @@ fc46eef914f854a,s6.sp.sp_jup_vip.dx_sp_jvip_exfl_noln_sir.pn.75.48000.english
 374bb7651c12991a,s6.sp.sp_jup_vip.dx_sp_jvip_mgnn_ivan_leaveitraptorwilltak.pn.75.48000.english
 5d550975b8a3ab70,s6.sp.sp_jup_vip.dx_sp_jvip_mgnn_ivan_letairsupporthandlet.pn.75.48000.english
 64cd85437a4a97cf,s6.sp.sp_jup_vip.dx_sp_jvip_mgnn_ivan_raptorcanhandlethemg.pn.75.48000.english
+7931293b015bbc6,s6.sp.sp_jup_vip.dx_sp_jvip_mkrv_koa3_flare.pn.75.48000.english
+3ca4eb9307d9a111,s6.sp.sp_jup_vip.dx_sp_jvip_mkrv_maka_onme.pn.75.48000.english
 aeeb8572bc5e0c8,s6.sp.sp_jup_vip.dx_sp_jvip_mkrv_noln_breacherup.pn.75.48000.english
 156aa2312cccf1bb,s6.sp.sp_jup_vip.dx_sp_jvip_prkf_koa1_21weneededthosepriso.pn.75.48000.english
 f7a8c54a7964aa9,s6.sp.sp_jup_vip.dx_sp_jvip_prkf_koa1_prisonerscantriotift.pn.75.48000.english
@@ -50938,6 +51059,7 @@ a5b99dec2346d1e,s6.sp.sp_jup_vip.dx_sp_jvip_prkf_maka_alphasaveyourbullets.pn.75
 39314baa1461d9aa,s6.sp.sp_jup_vip.dx_sp_jvip_reac_koa1_clear.pn.75.48000.english
 169d9707aba61947,s6.sp.sp_jup_vip.dx_sp_jvip_reac_koa2_alphamovingtosubleve.pn.75.48000.english
 333333f3a9cbc7a8,s6.sp.sp_jup_vip.dx_sp_jvip_reac_kob1_check.pn.75.48000.english
+3acf703a9ed648f7,s6.sp.sp_jup_vip.dx_sp_jvip_tuna_ivan_gettothetunnelthatso.pn.75.48000.english
 75d729173d4609a3,s6.sp.sp_jup_vip.dx_sp_jvip_wabn_koa1_21movein.pn.75.48000.english
 49538ffe5ad12d55,s6.sp.sp_jup_vip.dx_sp_jvip_wabn_koa1_launchhooks.pn.75.48000.english
 2d2cb725da0d918f,s6.sp.sp_jup_vip.dx_sp_jvip_wabn_koa1_letsgetupthere.pn.75.48000.english

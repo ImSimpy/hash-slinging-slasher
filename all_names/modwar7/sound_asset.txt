@@ -4056,6 +4056,9 @@ b6e6f117b8de470,iw9/amb/animal/anml_dog_bark_07.vnn.85.48000.all
 72e31267b9ca0c4,iw9/amb/animal/anml_dog_death_03.vnn.85.48000.all
 2ca3fc04f9f3cfd7,iw9/amb/animal/anml_dog_death_04.vnn.85.48000.all
 171c42e7109f36b2,iw9/amb/animal/anml_dog_death_05.vnn.85.48000.all
+4274c75f404035c6,iw9/amb/animal/anml_dog_foley_death.lnn.85.48000.all
+546eaad066a6db17,iw9/amb/animal/anml_dog_foley_pain_alert.lnn.85.48000.all
+1d4f848fcbbd33e6,iw9/amb/animal/anml_dog_foley_pain_run.lnn.85.48000.all
 12904c14661a978a,iw9/amb/animal/anml_dog_gear_rattle_01.vnn.85.48000.all
 2f4ccf023511b40d,iw9/amb/animal/anml_dog_gear_rattle_02.vnn.85.48000.all
 18b4e624ceb10610,iw9/amb/animal/anml_dog_gear_rattle_03.vnn.85.48000.all
@@ -4083,6 +4086,8 @@ b6e6f117b8de470,iw9/amb/animal/anml_dog_bark_07.vnn.85.48000.all
 63f29561bbc0daab,iw9/amb/animal/anml_dog_snarl_08.vnn.85.48000.all
 5ec6ba936c306116,iw9/amb/animal/anml_dog_snarl_09.vnn.85.48000.all
 499c056493df2f58,iw9/amb/animal/anml_dog_snarl_10.vnn.85.48000.all
+48cbce5f88a38195,iw9/amb/animal/anml_dog_sniff_idle.lnn.85.48000.all
+2d5d9814795df778,iw9/amb/animal/anml_dog_sniff_walk.lnn.85.48000.all
 5ad81a8c67aac4dd,iw9/amb/animal/dogcall_whistle_01.lnn.85.48000.all
 273303af3410c14a,iw9/amb/animal/dogcall_whistle_02.lnn.85.48000.all
 5a769dc5d70c0e9f,iw9/amb/animal/dogcall_whistle_03.lnn.85.48000.all
@@ -15348,6 +15353,7 @@ bfeb8e8747e3ce1,rex/wpn/sh_bmike3/wpn_rex_bmike3_npc_sup_mech_08.hnn.85.48000.al
 4416256f4b16baee,t10/eqp/grapplehook/eqp_grapplehook_wind_02.vnn.75.48000.all
 c43c38c7dec1fa3,t10/eqp/grapplehook/eqp_grapplehook_wind_03.vnn.75.48000.all
 453d10f27ef338e0,t10/eqp/grapplehook/eqp_grapplehook_wind_04.vnn.75.48000.all
+4afba44d4521d36b,t10/eqp/spycam/eqp_spycam_nomark.lnn.75.48000.all
 2efffd984821bfab,t10/eqp/spycam/eqp_spycam_thermal_toggle_off.lnn.75.48000.all
 153b93a8903e001a,t10/exp/cruise_missile/iw9_cruise_missile_lp_close.lnl.75.48000.all
 45e3b270e669aa20,t10/exp/cruise_missile/iw9_cruise_missile_lp_dist.lnl.75.48000.all

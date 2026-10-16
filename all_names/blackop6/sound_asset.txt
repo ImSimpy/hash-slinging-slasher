@@ -2189,6 +2189,9 @@ bda14934c5ab2d1,iw9/amb/animal/anml_dog_bark_attention_01.lnn.85.48000.all
 487e407bb92fbe56,iw9/amb/animal/anml_dog_death_03.lnn.85.48000.all
 46cb694c4dd03dbd,iw9/amb/animal/anml_dog_death_04.lnn.85.48000.all
 75bdbec234ac2c70,iw9/amb/animal/anml_dog_death_05.lnn.85.48000.all
+4274c75f404035c6,iw9/amb/animal/anml_dog_foley_death.lnn.85.48000.all
+546eaad066a6db17,iw9/amb/animal/anml_dog_foley_pain_alert.lnn.85.48000.all
+1d4f848fcbbd33e6,iw9/amb/animal/anml_dog_foley_pain_run.lnn.85.48000.all
 3f5a829d52615118,iw9/amb/animal/anml_dog_gear_rattle_01.lnn.85.48000.all
 49516859b56c1e07,iw9/amb/animal/anml_dog_gear_rattle_02.lnn.85.48000.all
 6a556a9e63bac2d2,iw9/amb/animal/anml_dog_gear_rattle_03.lnn.85.48000.all
@@ -2249,6 +2252,8 @@ ecee125040eaad3,iw9/amb/animal/anml_dog_gear_rattle_06.lnn.85.48000.all
 3db4780155e9f991,iw9/amb/animal/anml_dog_snarl_08.lnn.85.48000.all
 7037ae3ab21a0d84,iw9/amb/animal/anml_dog_snarl_09.lnn.85.48000.all
 6fefced6bcb4eeca,iw9/amb/animal/anml_dog_snarl_10.lnn.85.48000.all
+48cbce5f88a38195,iw9/amb/animal/anml_dog_sniff_idle.lnn.85.48000.all
+2d5d9814795df778,iw9/amb/animal/anml_dog_sniff_walk.lnn.85.48000.all
 1fcd20dfa4710a5e,iw9/amb/animal/anml_dog_whine_01.snn.85.48000.all
 1847f71e51c30421,iw9/amb/animal/anml_dog_whine_02.snn.85.48000.all
 3bd53f4a8ea4f294,iw9/amb/animal/anml_dog_whine_03.snn.85.48000.all
@@ -5277,6 +5282,7 @@ f920f44e6ea012e,iw9/wpn/tu_mike242_25mm/weap_mike242_25mm_fire_plr_lfe.tnn.75.48
 781dbdbc08c82b9d,jup/amb/amb_emitters/animal/amb_emt_insect_crickets_near_03.dnn.85.48000.all
 43d3b23798e10936,jup/amb/amb_emitters/animal/amb_emt_insect_crickets_near_04.dnn.85.48000.all
 3b5fa46ef5146a0b,jup/amb/amb_emitters/animal/amb_emt_insect_crickets_near_05.dnn.85.48000.all
+501b4ef3727238e0,jup/amb/amb_emitters/animal/amb_jup_anml_pigeon_fly_away.tnn.85.48000.all
 2d9a610be7464cac,jup/amb/amb_emitters/animal/amb_jup_anml_pigeon_scared.tnn.85.48000.all
 76e43f96d71c0914,jup/amb/amb_emitters/animal/amb_jup_anml_rat_run_01.dnn.85.48000.all
 4c153a0d6f8a2073,jup/amb/amb_emitters/animal/amb_jup_anml_rat_run_02.dnn.85.48000.all
@@ -5300,6 +5306,9 @@ ec698767c9c40f7,jup/amb/amb_emitters/animal/amb_jup_anml_rat_vox_02.dnn.85.48000
 33aadfa3b65896d0,jup/amb/amb_emitters/animal/amb_jup_anml_rat_vox_09.dnn.85.48000.all
 51693e0e735af176,jup/amb/amb_emitters/animal/amb_jup_anml_rat_vox_10.dnn.85.48000.all
 6206c8367aac974b,jup/amb/amb_emitters/animal/amb_jup_anml_rat_vox_11.dnn.85.48000.all
+4257ede524d2589b,jup/amb/amb_emitters/animal/amb_jup_anml_seagull_fly_away.dnn.85.48000.all
+3c98984a0c49cd18,jup/amb/amb_emitters/animal/amb_jup_anml_seagull_fly_in.dnn.85.48000.all
+ace27d54bb2fc1f,jup/amb/amb_emitters/animal/amb_jup_anml_seagull_scared.dnn.85.48000.all
 3621128b31eb8c65,jup/amb/amb_emitters/emt_refrigerator_01_lp.dnl.75.48000.all
 3d02f00cd7d006a5,jup/amb/amb_emitters/metal/amb_emt_ext_metal_cracks_01.lnn.85.48000.all
 6e74165ee3ff0452,jup/amb/amb_emitters/metal/amb_emt_ext_metal_cracks_02.lnn.85.48000.all
@@ -5437,6 +5446,7 @@ dbc57f636a233c3,jup/dst/dst_water_cooler_jug_01.tnn.85.48000.all
 453bc63ea875d490,jup/dst/wood/dst_wood_crate_large_06.tnn.85.48000.all
 4cbb1688a3a1d6cd,jup/dst/wood/dst_wood_crate_large_07.tnn.85.48000.all
 262a2a713d7cf0ce,jup/dst/wood/dst_wood_crate_large_08.tnn.85.48000.all
+39dc86f95b9f57d0,jup/dst/wood/dst_wood_crate_small_02.tnn.85.48000.all
 63e668b7370e0226,jup/eqp/aether_blade/aetherblade_cooldown_end.tnn.75.48000.all
 61500c286285c7eb,jup/eqp/aether_blade/aetherblade_impact_v2_00.tnn.75.48000.all
 5ce9fb4349986936,jup/eqp/aether_blade/aetherblade_impact_v2_01.tnn.75.48000.all
@@ -5532,10 +5542,15 @@ e326a820b301ac6,jup/fly/executions/gelato/jup_exec_gelato_lstand_03.pnn.85.48000
 73922d537e913d68,jup/fly/executions/longsword/jup_exec_longsword_prone_sword_01.pnn.85.48000.all
 79f9f30234b0fd6c,jup/fly/executions/longsword/jup_exec_longsword_stand_sheeth_01.pnn.85.48000.all
 706cdb8cde0af8f6,jup/fly/executions/longsword/jup_exec_longsword_stand_sword_01.pnn.85.48000.all
+654bbb60e384d203,jup/fly/executions/mint/jup_exec_mint_lstand_crows.pnn.85.48000.all
 a6570a53c670d00,jup/fly/executions/mint/jup_exec_mint_lstand_foley_01.pnn.85.48000.all
 2331a44de65387f7,jup/fly/executions/mint/jup_exec_mint_lstand_foley_02.pnn.85.48000.all
+27b67fcca6985131,jup/fly/executions/mint/jup_exec_mint_prone_crows.pnn.85.48000.all
 49d83a9f4ede9f2,jup/fly/executions/mint/jup_exec_mint_prone_foley_01.pnn.85.48000.all
 458065bcf439cf8d,jup/fly/executions/mint/jup_exec_mint_prone_foley_02.pnn.85.48000.all
+154a2c9f4c473efb,jup/fly/executions/mint/jup_exec_mint_stand_crows.pnn.85.48000.all
+3c4e09705ba28452,jup/fly/executions/mint/jup_exec_mint_stand_foley_a.pnn.85.48000.all
+68b456c61c7ab7ed,jup/fly/executions/mint/jup_exec_mint_stand_foley_b.pnn.85.48000.all
 323f4b64a2cd48f0,jup/fly/executions/mochi/jup_exec_mochi_lstand.pnn.85.48000.all
 690d95a22bfce289,jup/fly/executions/mochi/jup_exec_mochi_lstand_02.pnn.85.48000.all
 5054a4b6cb67f554,jup/fly/executions/mochi/jup_exec_mochi_lstand_03.pnn.85.48000.all
@@ -5562,6 +5577,10 @@ c2a732c229ae233,jup/fly/executions/plum/jup_exec_plum_ice_breath_lstand_01.pnn.8
 7523e90b7af29eee,jup/fly/executions/plum/jup_exec_plum_victim_lstand_bod_imp_01.pnn.85.48000.all
 64a6183c3733950e,jup/fly/executions/sg/jup_exec_sg_lstand_hit_01.pnn.85.48000.all
 53ac66b488094399,jup/fly/executions/sg/jup_exec_sg_lstand_hit_02.pnn.85.48000.all
+3c4bf43784d5e157,jup/fly/executions/sg/jup_exec_sg_lstand_victim_fall.pnn.85.48000.all
+39dd915dc1f24e25,jup/fly/executions/sg/jup_exec_sg_prone_kick.pnn.85.48000.all
+45ef408ae32d121d,jup/fly/executions/sg/jup_exec_sg_prone_victim_bodyfall.pnn.85.48000.all
+227fc67c68ecdb4b,jup/fly/executions/sg/jup_exec_sg_stand_victim_bodyfall.pnn.85.48000.all
 182ed8d2f8fe0d15,jup/fly/executions/smg/jup_exec_smg_last_fire_01.pnn.85.48000.all
 424e0a517ad77ffa,jup/fly/executions/smg/jup_exec_smg_last_fire_02.pnn.85.48000.all
 55ff361acbac5303,jup/fly/executions/smg/jup_exec_smg_last_kick_01.pnn.85.48000.all
@@ -5681,6 +5700,8 @@ b80ee3faf79ac7d,jup/phy/phy_paintcan_06.tnn.85.48000.all
 8334024a0c0f82e,jup/prj/impact/bullet/firing_range/jup_firing_range_bullet_impact_large_07.lnn.85.48000.all
 3c2e7272e5b1c6cd,jup/prj/impact/bullet/firing_range/jup_firing_range_bullet_impact_large_08.lnn.85.48000.all
 5c748febb53c7180,jup/prj/impact/bullet/firing_range/jup_firing_range_bullet_impact_large_09.lnn.85.48000.all
+4a83b595d036b503,jup/uin/frontend/uin_jup_aar_daily_progress_bars.snn.85.48000.all
+4797ede472d5ad45,jup/uin/frontend/uin_jup_aar_rank_up_slam.snn.85.48000.all
 58b1dc127969ec9c,jup/uin/frontend/uin_jup_aar_weapon_intro.snn.85.48000.all
 42e1233f033ee011,jup/uin/frontend/uin_jup_aar_weapon_progress_bar_01.snn.85.48000.all
 1001326ce9473e8e,jup/uin/frontend/uin_jup_aar_weapon_progress_bar_02.snn.85.48000.all
@@ -7860,6 +7881,7 @@ edde75afad4ef76,t10/eqp/rocket/rocket_expl_atmo_ext_02.tnn.75.48000.all
 24ad519c7e5f2467,t10/eqp/rocket/rocket_expl_med_02.tnn.75.48000.all
 6fe2d52a4e275dc2,t10/eqp/rocket/rocket_expl_med_03.tnn.75.48000.all
 5d16bf4f8bfb93b9,t10/eqp/rocket/rocket_expl_med_04.tnn.75.48000.all
+2e0d50388f2a4443,t10/eqp/spycam/eqp_spycam_nomark.tnn.75.48000.all
 32ad06df85829983,t10/eqp/spycam/eqp_spycam_thermal_toggle_off.tnn.75.48000.all
 7a660e5a7b338e9d,t10/exp/car/explo_car_blast_01.lnn.85.48000.all
 5f9c9260a635910a,t10/exp/car/explo_car_blast_02.lnn.85.48000.all
