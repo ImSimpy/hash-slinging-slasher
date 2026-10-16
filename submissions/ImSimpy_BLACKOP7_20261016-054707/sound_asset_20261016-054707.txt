@@ -1,0 +1,3 @@
+2195ca722b348c38,t10/eqp/spycam/eqp_spycam_zoom.tnn.75.48000.all
+589608b3dd257fb9,t10/eqp/spycam/eqp_spycam_thermal_toggle.tnn.75.48000.all
+7b724cbaa144af96,t10/eqp/spycam/eqp_spycam_thermal_toggle.tnn.85.48000.all
